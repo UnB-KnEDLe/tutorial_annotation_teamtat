@@ -4,10 +4,6 @@
 
 ### Entidades
 
-## Anotação de atos de substituição
-
-### Entidades
-
 ## Anotação de atos de nomeação
 
 Primeiro é necessário verificar se existem atos de nomeação no DODF, para isso basta pressionar CTRL+F e pesquisar “NOMEAR”. Desta forma, você tem noção de quantos atos de nomeação terá que anotar e onde eles estão. Depois, verifique se o ato de nomeação é de cargo comissionado ou de cargo efetivo, pois isso influencia nos tipos de entidades que terão que ser anotadas. 
@@ -25,9 +21,9 @@ Cargo Efetivo | Sem padrão
 Matrícula | Após 'matrícula n°' 
 Matrícula SIAPE | Após 'SIAPE' 
 Símbolo | Após 'Símbolo' 
-Cargo em Comissão | Após Símbolo 
-Hierarquia da Lotação | Após Cargo em Comissão 
-Orgão | Após Hierarquia da Lotação 
+Cargo em Comissão | Após o atributo Símbolo 
+Hierarquia da Lotação | Após o atributo Cargo em Comissão 
+Orgão | Após o atributo Hierarquia da Lotação 
 
 #### 1.1. Exemplos de atos de nomeação de cargo comissionado.
 
@@ -157,3 +153,37 @@ Processo GDF/SEI | Após 'SEI n°'
 * Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
 * Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
 * Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
+
+## Anotação de atos de retificação
+
+### Passo-a-passo
+
+1) Abra um documento PDF do DODF a ser anotado na área de trabalho do TeamTat;
+2) Procure (CTRL + F), na própria janela do texto do DODF, por palavras-chave relacionadas aos atos de retificação, como *RETIFICAR*, *RETIFICAÇÃO* e *LEIA-SE*;
+3) Ao encontrar um bloco de texto contendo alguma das palavras-chave, verifique se ele apresenta algum dos **quatro** padrões possíveis na próxima seção
+4) **Anote as entidades em um primeiro momento**, isto é, no bloco de texto associado ao ato de retificação, procure pelas entidades na Seção **Entidades** e faça a anotação de cada uma, conforme o *rótulo* disponível no TeamTat.
+5) **Anote o bloco de texto inteiro**, selecione todo o bloco de texto associado ao ato de retificação conforme algum dos padrões dos atos de retificação definidos na seção baiaxo e rotule-os como *retificacao*;
+6) Construa os relacionamentos entre cada rótulos das entidades anotadas com o bloco de texto associado ao ato de retificação.
+
+### Padrão dos Blocos de Textos Relacionados ao Ato
+
+#### Padrão 1
+
+RETIFICAR a [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicada no DODF No [NUMERO_DODF], de [DATA_DODF], referente [TIPO_DE_ATO] ao(à) servidor(a): [NOME_SERVIDOR], [CARGO_EFETIVO], matrícula [MATRÍCULA], [CARGO_EFETIVO], Classe [CLASSE], Padrão [PADRAO], do [LOTACAO], matrícula SIAPE no [MATRICULA_SIAPE], para constar onde se lê: [INFORMACAO_ERRADA], leia-se [INFORMACAO_CORRETA], mantendo-se os demais termos do [TIPO_DE_ATO].
+
+### Entidades
+
+- TIPO_DO_DOCUMENTO (não obrigatório): Ordem de Serviço, Prestação de Contas
+- NUMERO_DOCUMENTO_ITEM_SEM_EFEITO (não obrigatório): número do documento onde está o item tornado sem efeito;
+- DATA_DOCUMENTO_ITEM_SEM_EFEITO (obrigatório): data do documento onde está o item tornado sem efeito;
+- DATA_DODF (obrigatório): data do DODF
+- TIPO_DE_ATO (obrigatório): concessão de abono, aposentadoria, substituição, nomeação etc
+- NOME_SERVIDOR (obrigatório): nome do servidor
+- MATRÍCULA (obrigatório):
+- CARGO_EFETIVO (obrigatório):
+- CLASSE (não obrigatório):
+- PADRAO (não obrigatório):
+- MATRICULA_SIAPE (não obrigatório): só se aplica à Polícia Civil, à Polícia Militar e ao Corpo de Bombeiro Militar
+- INFORMACAO_ERRADA (obrigatório): Informação errada
+- INFORMACAO_CORRIGIDA (obrigatório): Informação corrigida
+
