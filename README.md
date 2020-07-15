@@ -25,9 +25,9 @@ Cargo Efetivo | Sem padrão
 Matrícula | Após 'matrícula n°' 
 Matrícula SIAPE | Após 'SIAPE' 
 Símbolo | Após 'Símbolo' 
-Cargo em Comissão | Após o atributo Símbolo 
-Hierarquia da Lotação | Após o atributo Cargo em Comissão 
-Orgão | Após o atributo Hierarquia da Lotação 
+Cargo em Comissão | Após Símbolo 
+Hierarquia da Lotação | Após Cargo em Comissão 
+Orgão | Após Hierarquia da Lotação 
 
 #### 1.1. Exemplos de atos de nomeação de cargo comissionado.
 
