@@ -1,8 +1,6 @@
 # Anotação de atos tornados sem efeito
 
-Primeiro é necessário verificar se existem atos tornados sem efeito no DODF, para isso basta pressionar CTRL+F e pesquisar “TORNAR SEM EFEITO”. 
-Desta forma, você tem noção de quantos atos tornados sem efeito terá que anotar e onde eles estão. 
-Depois, verifique se o ato tornado sem efeito é referente a atos de nomeação ou exoneração, ou se ele é referente a outros tipos de atos, pois isso influencia nos tipos de entidades que terão que ser anotadas. 
+Primeiro é necessário verificar se existem atos tornados sem efeito no DODF, para isso basta pressionar CTRL+F e pesquisar “TORNAR SEM EFEITO”. Depois avalie um por um para ver se eles se referem a atos de nomeação, exoneração ou aposentadoria. Existirão outros tipos de atos tornados sem efeito, porém eles não precisam ser anotados. 
 
 ## 1. Atos tornados sem efeito referentes a nomeação ou exoneração
 
@@ -38,6 +36,8 @@ Orgão | Após Hierarquia da Lotação
 > TORNAR SEM EFEITO no ***Decreto*** **(1)** de ***03 de abril de 2019*** **(2)**, publicado no DODF n° ***64*** **(4)**, de ***04 de abril de 2019*** **(5)**, o ato que nomeou o ***Agente de Polícia*** **(8)** ***ANTONIO DANIEL SILVA FARIA*** **(7)**, matrícula ***57.512.7*** **(9)**, SIAPE ***1411196*** **(10)**, para exercer o Cargo em Comissão, Símbolo ***DFG-10*** **(11)**, de ***Chefe*** **(12)**, da ***Seção de Investigação II, da Divisão de Repressão à Corrupção e aos Crimes contra a Administração Pública, da Coordenação Especia de Combate à Corrupção, ao Crime Organizado, aos Crimes contra a Administração e aos Crimes Contra Ordem Tributária, do Departamento de Polícia Especializada*** **(13)**, da ***Polícia Civil do Distrito Federal*** **(14)**.
 >
 > TORNAR SEM EFEITO no ***Decreto*** **(1)** de ***03 de abril de 2019*** **(2)**, publicado no DODF n° ***64*** **(4)**, de ***04 de abril de 2019*** **(5)**, o ato que exonerou o ***Agente de Polícia*** **(8)** ***JEUVANI MARQUES DE FARIA JUNIOR*** **(7)**, matrícula ***188.531-6*** **(9)**, SIAPE ***1479093*** **(10)**, para exercer o Cargo em Comissão, Símbolo ***DFG-10*** **(11)**, de ***Chefe*** **(12)**, da ***Seção de Investigação II, da Divisão de Repressão à Corrupção e aos Crimes contra a Administração Pública, da Coordenação Especia de Combate à Corrupção, ao Crime Organizado, aos Crimes contra a Administração e aos Crimes Contra Ordem Tributária, do Departamento de Polícia Especializada*** **(13)**, da ***Polícia Civil do Distrito Federal*** **(14)**.
+>
+> TORNAR SEM EFEITO, na ***Portaria*** **(1)** n°09, de ***09/01/2020*** **(2)**, publicada no DODF ***07*** **(4)**, de ***10/01/2020*** **(5)**, o ato que exonerou, por extinção do cargo, e nomeou ***ENIVALDO ERILANY FELIPE DOS SANTOS*** **(7)**, matrícula n° ***38.714-2*** **(9)**, do Cargo em Comissão, Símbolo ***DFA-05*** **(11)**, de ***Assessor Técnico*** **(12)**, da ***Gerência de Infraestrutura, da Coordenação de Inovação, Tecnologia da Informação e Comunicação, da Subsecretaria de Administração-Geral*** **(13)**, da ***Defensoria Pública do Distrito Federal*** **(14)**.
 
 **(1)** Tipo de documento  
 **(2)** Data do documento onde está o item tornado sem efeito  
@@ -58,45 +58,54 @@ Orgão | Após Hierarquia da Lotação
 
 1. **Identifique o ato que será anotado.** Por possuir várias entidades a serem anotadas, aconselho anotar um ato de nomeação de cargo efetivo de cada vez.  
 
-2. **Anote o Tipo e a Data do documento onde está o item tornado sem efeito.** Elas aparecem logo após as palavras 'TORNAR SEM EFEITO'.
+2. **Anote o Tipo e a Data do documento onde está o item tornado sem efeito.** Aparecem logo após as palavras 'TORNAR SEM EFEITO'.
 
-3. **Anote o Tipo de edição, o Número, a Data e a Página do DODF.**  Aparecem após depois das entidades citadas acima. O tipo de edição do DODF pode ser 'Extra' ou 'Suplementar', se for normal não haverá menção. Anote as entidade Número, Data e Página do DODF seguindo a ordem em que elas aparecerem. 
+3. **Anote o Tipo de edição, o Número, a Data e a Página do DODF.**  Aparecem depois das entidades citadas acima. O tipo de edição do DODF pode ser 'Extra' ou 'Suplementar', se for normal não haverá menção. Anote as entidade Número, Data e Página do DODF seguindo a ordem em que elas aparecerem. 
 
 4. **Anote o Nome do Servidor, Cargo Efetivo, Matrícula e Matrícula SIAPE.** O Nome estará em letra maiúscula. Nem sempre tem o Cargo Efetivo, mas se tiver ele estará aao redor do nome. Depois terá a Matrícula e a Matrícula SIAPE, mas também existem casos em que essas entidades não estão presentes no ato a ser anotado.
 
 5. **Anote Símbolo, Cargo, Hierarquia de Lotação e Órgão.** O símbolo fica após a palavra 'símbolo'. E em seguida estarão o Cargo, a Hierarquia de Lotação e o Órgão, respectivamente. Sendo que o Órgão são as últimas palavras, depois da última vírgula até o final do ato que está sendo anotado.
 
-6. **Anote o ato tornado sem efeito como um todo.** Anote todas as palavras desde 'TORNAR SEM EFEITO' até o final do ato que estão sendo anotado.
+6. **Anote o ato tornado sem efeito como um todo.** Anote todas as palavras desde 'TORNAR SEM EFEITO' até o final do ato que está sendo anotado.
 
-## 2. Atos tornados sem efeito referente aos demais tipos de atos.
- 
- As entidades que deverão ser identificadas são:
+## 2. Atos tornados sem efeito referente a aposentadoria.
+
+Os atos tordados sem efeito referentes a aposentadoria começam com 'TORNAR SEM EFEITO' e vão ter as palavras 'que concedeu aposentadoria a' antes do Nome do Servidor.
+
+As entidades que deverão ser identificadas são:
   
 Entidades | Padrão   
 -------- | ------- 
-Tipo de documento |   
-Número do documento onde está o item tornado sem efeito | 
-Data do documento onde está o item tornado sem efeito |  
-Número do DODF |  
-Data do DODF | 
-Página do DODF |  
-Nome do Servidor |  
-Matrícula |  
-Cargo Efetivo |  
-Classe |  
-Padrão |  
-Quadro pessoal permanente ou Suplementar |   
-Fundamento Legal |  
-Órgão |   
-Processo GDF/SEI |  
-Vigência |    
-Matricula SIAPE |
+Tipo de Documento onde está o item tornado sem efeito | Após 'TORNAR SEM EFEITO'
+Número do Documento | Após Tipo de Documento
+Data do Documento | Após Número do Documento
+Número do DODF | Sem padrão, geralemnte após Data do Documento
+Data do DODF | Sem padrão, geralmente após Número do DODF
+Página do DODF | Após Data do DODF
+Nome do Servidor |  Letras maiúsculas, após 'concedeu aposentadoria a'
+Matrícula |  Após 'matrícula'
+Matricula SIAPE | Após 'SIAPE'
+Cargo Efetivo |  Sem padrão, às vezes após 'Cargo de'
+Classe | Após 'Classe' 
+Padrão | Após 'Padrão'
+Quadro de Pessoal permanente ou Suplementar | Após 'Quadro de Pessoal'   
+Órgão |  Sem padrão, provavelmente após Quadro de Pessoal 
+Processo GDF/SEI | Sem padrão, geralmente no final e após 'Processo' 
+
 
 ### 2.1. Exemplos de atos tornados sem efeito referentes aos demais tipos de atos.
 
-> exemplo 1
-> exemplo 2
-> exemplo 3
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***42*** **(2)**, de ***14/02/2012*** **(3)**, publicada no DODF n° ***36*** **(4)**, de ***17/02/2012*** **(5)**, o ato que concedeu aposentadoria a ***GERALDO EUSTÁQUIO COUTO*** **(7)**, matrícula n° ***114.514-2*** **(8)**, em atendimento a Diligência Interna -CGDF n° 6/2016. Processo/SES: ***276.000.021/2012*** **(14)**.
+>
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***223*** **(2)**, de ***18/09/2017*** **(3)**, publicada no DODF n° ***186*** **(4)**, de ***27/09/2017*** **(5)**, o ato que concedeu aposentadoria a ***JOSE ANTONIO DE JESUS*** **(7)**, matrícula n° ***133;010-1*** **(8)**, por erro na contagem do tempo para aposentadoria. Processo SEI n° ***0060-004679/2017*** **(14)**.
+>
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***ELIÃ AMBRÓSIO CÂNDIDO DA SILVA*** **(7)**, matrícula ***39.969-8*** **(8)**, no Cargo de ***Professor de Educação Básica*** **(9)**, Padrâo ***24*** **(11)**, Etapa IV, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00087144/2019-92*** **(14)**.
+>
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***FÁTIMA REGINA NUNES DOS SANTOS*** **(7)**, matrícula ***44.832-X*** **(8)**, no Cargo de ***Professor de Educação Básica*** **(9)**, Padrão ***25*** **(11)**, Etapa IV, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00120246/2019-27*** **(14)**.
+>
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***FLORIPES ALVES MACHADO DA SILVA*** **(7)**, matrícula ***40.911-1*** **(8)**, no Cargo de ***Agente de Gestão Educacional/Serviços Gerais*** **(9)**, Nível 10, Padrão ***3*** **(11)**, Etapa V, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00129252/2019-40*** **(14)**. 
+> 
+> TORNAR SEM EFEITO a ***Ordem de Serviço*** **(1)** n° ***36*** **(2)**, de ***05/05/2011*** **(3)**, publicado no DODF n° ***87*** **(4)**, de ***09/05/2011*** **(5)**, que concedeu aposentadoria a ***HELIANA OLIVEIRA SOUZA*** **(7)**, matrícula ***102.824-3*** **(8)**, ***Especialista em Assistência Social*** **(9)**, Classe ***Especial*** **(10)**, Padrão ***V*** **(11)**, do Quadro de Pessoal do ***Distrito Federal*** **(12)**. Processo n° ***0400.001.442/2010*** **(14)**.
 
 **(1)** Tipo de documento  
 **(2)** Número do documento onde está o item tornado sem efeito  
@@ -116,24 +125,23 @@ Matricula SIAPE |
 
 ### 2.2. Sugestão de como ralizar a anotação de um ato tornado sem efeito referente aos demais tipos de atos:
 
-1. 
+1. **Identifique o ato que será anotado.** Por possuir várias entidades a serem anotadas, aconselho anotar um ato de nomeação de cargo efetivo de cada vez.  
 
-2. 
+2. **Anote o Tipo, o Número e a Data do documento onde está o item tornado sem efeito.** Aparecem logo após as palavras 'TORNAR SEM EFEITO'.
 
-3.
+3. **Anote o Número, a Data e a Página do DODF.**  Aparecem após depois das entidades citadas acima. Anote as entidades seguindo a ordem em que elas aparecerem. 
 
-4. 
+4. **Anote o Nome do Servidor, Matrícula, Matrícula SIAPE e Cargo Efetivo.** O Nome estará em letra maiúscula. O Cargo Efetivo geralmente aparece após a Matrícula, a qual aparece depois do Nome do Servidor. Nem sempre se tem a Matrícula SIAPE, mas se tiver ela aparecerá depois da palavra 'SIAPE'.
 
-5. 
+5. **Anote Classe, Padrão, Quadro de Pessoal e Órgão.** Geralmente essas entidades aparecem uma seguida da outra, nem sempre o ato terá todas elas, anote todas as que encontrar.
 
-6. 
+6. **Anote o Processo GDF/SEI.** Geralmente aparece por último, após a palavra 'Processo'.
 
-7. 
-
-8. 
+6. **Anote o ato tornado sem efeito como um todo.** Anote todas as palavras desde 'TORNAR SEM EFEITO' até o final do ato que está sendo anotado. 
 
 ## Observações Gerais sobre os atos tornados sem efeito:
 
+* Existirão outros tipos de atos tornados sem efeito, porém eles não precisam ser anotados. Anote apenas os que se referem a atos de nomeação, exoneração ou aposentadoria.
 * Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
 * Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
 * Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
