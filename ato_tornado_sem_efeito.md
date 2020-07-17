@@ -79,7 +79,7 @@ Entidades | Padrão
 Tipo de Documento onde está o item tornado sem efeito | Após 'TORNAR SEM EFEITO'
 Número do Documento | Após Tipo de Documento
 Data do Documento | Após Número do Documento
-Número do DODF | Sem padrão, geralemnte após Data do Documento
+Número do DODF | Sem padrão, geralmente após 'DODF n°'
 Data do DODF | Sem padrão, geralmente após Número do DODF
 Página do DODF | Após Data do DODF
 Nome do Servidor |  Letras maiúsculas, após 'concedeu aposentadoria a'
