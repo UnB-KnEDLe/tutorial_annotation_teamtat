@@ -23,7 +23,7 @@ Em geral, os atos de aposentadoria seguem os seguintes padrões.
 | Matricula SIAPE (12) | Não obrigatório | SIAPE |
 
 #### Exemplos de atos de aposentadoria:
-Seguem exemplos de atos de aposentadoria, destacados com <span style="background-color:#e7f8dd">esse tipo de text highlight</span>, com seus respectivos atributos destacados conforme índice da tabela acima. Note que nem todos os exemplos contemplam todos os atributos. **A regra aqui é simples: marque todos os atributos, obrigatórios ou não, que estiverem no ato.**
+Seguem exemplos de atos de aposentadoria, com seus respectivos atributos enumerados conforme índice da tabela acima. Note que nem todos os exemplos contemplam todos os atributos. **A regra aqui é simples: marque todos os atributos, obrigatórios ou não, que estiverem no ato.**
 
 1. O SECRETÁRIO DE ESTADO DE CULTURA DO DISTRITO FEDERAL, no uso das atribuições que lhe são conferidas pelo Decreto n.º 23.212, de 06 de setembro de 2002, resolve:
 <span style="background-color:#e7f8dd">Conceder aposentadoria a servidora: <span style="color:#EBAC23">*IRACY VIEIRA DA SILVA (2)*</span>, <span style="color:#B80058"> *Matrícula: 1650336-5 (3)*</span>, Cargo: <span style="color:#008CF9"> *AUXILIAR DE ATIVIDADES CULTURAIS (4)*</span>, <span style="color:#006E00"> *Classe: 1ª (5)*</span>, <span style="color:#00BBAD"> *Padrão: IV (6)*</span>, <span style="color:#D163E6"> *Quadro: Suplementar do GDF (7)*</span>, <span style="color:#B24502"> *Processo: 0150-001684/2003 (10)*</span>, <span style="color:#5954D6"> *Artigo 40, § 1º, inciso III, alínea “b” e § 8º, da CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL (8)*</span>.</span>
