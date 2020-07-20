@@ -80,7 +80,7 @@ _**Ref**: DODF 17/07/2020, edição íntegra, Página 39_.
 3. Após ter todos os atributos de um ato anotados, anote o ato como um todo por meio da sua entidade identificadora. No caso, a entidade aqui é 'Aposentadoria'. Como você vai anotar por cima de outras anotações, o programa pergunta se você deseja realmente fazer um overlap. Clique no botão verde 'Create New Annotation'.
 ![alt text](tutorial_aposentadoria4.png "marcação ato de aposentadoria")
 ![alt text](tutorial_aposentadoria5.png "confirmação overlap")
-4. Adicione uma nova relação por meio da aba 'Relations'. É aqui que vamos garantir que os atributos anotados se refiram a um ato em específico. Clique no botão '+', Add New Relation. Quando você clicar nesse botão, é possível que o programa faça um scroll para início da página. Se isso acontecer, clique na seta para baixo do Ctrl+F e retorne para o ponto que você estava.
+4. Adicione uma nova relação por meio da aba 'Relations'. É aqui que vamos garantir que os atributos anotados se refiram a um ato em específico. Clique no botão '+', Add New Relation. Quando você clicar nesse botão, é possível que o programa faça um scroll para início da página. Se isso acontecer, clique na seta para baixo do Ctrl+F - ou aperte Ctrl+F + Enter no teclado - e retorne para o ponto que você estava.
 ![alt text](tutorial_aposentadoria6.png "adição relação")
 Selecione o texto do ato por inteiro novamente. Selecione todos as entidades marcadas e clique no botão azul 'Add to relation'.
 ![alt text](tutorial_aposentadoria7.png "seleção atributos relação")
