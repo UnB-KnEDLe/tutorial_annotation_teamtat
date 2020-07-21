@@ -51,7 +51,7 @@ _**Ref**: DODF 10/06/2016, Seção 2., Página 30._
 
 ### Sugestão de processo de anotação
 
-1. Comece com uma busca global no documento pelos termos **"conceder ab"** ou **abono d**, usando Ctrl+F.
+1. Comece com uma busca global no documento pelos termos **"conceder ab"** ou **"abono d"**, usando Ctrl+F.
 ![busca global](abono_perm1.png "busca global")
 
 2. Marque os atributos. Selecione a entidade, conforme ilustra a imagem abaixo, e marque cada um dos atributos de um ato. Se preferir, também é possível anotar várias instâncias de um mesmo atributo - anotar primeiro todos os nomes, depois todas as matrículas, ...
