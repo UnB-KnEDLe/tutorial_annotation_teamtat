@@ -6,7 +6,7 @@ Para encontrar os atos de Exoneração no documento do DODF, basta pressionar CT
 
 Os atos de exoneração começam com a palavra "EXONERAR" e vão até o ponto final. Geralmente, há a indicação de que o cargo a ser exonerado é um cargo em comissão ou cargo de natuaza especial.
 
-### Tabela de atributos e padrões
+### Tabela de entidades e padrões
 
 As entidades que deverão ser identificadas são:
 
@@ -26,6 +26,8 @@ Motivo (11) |	'em virtude ou por estar sendo'
 
 ### Exemplos de atos de Exoneração
 
+Seguem exemplos de atos de Exoneração. A entidades anotadads estão ***destacadas*** e enumeradads conforme a tabela acima. Note que os exemplos, em sua maioria, não contemplam todos os atributos listadas. **A regra aqui é simples: marque todas as entidades que estiverem no ato.**
+
 > EXONERAR, por estar sendo ***nomeada para outro cargo (11)***,  ***JULIANA  VIANA  RODRIGUES  PIMENTEL (1)*** do  Cargo de  Natureza  Especial,  Símbolo  ***CNE-06 (3)***,  de  ***Assessor  Especial (4)***,  da ***Secretaria  Executiva (5)***,  da ***Secretaria  de  Estado  de  Ciência, Tecnologia  e  Inovação  do  Distrito  Federal (6)***.
 
 > EXONERAR,  ***a  pedido (8)***,  ***ARLÊNIO  DE  OLIVEIRA  MINEU (1)***  do  Cargo de  Natureza  Especial,  Símbolo ***CNE-07 (3)***,  de  ***Corregedor (4)***, da ***Corregedoria (5)***,  da  ***Secretaria  de  Estado  de  Proteção  da  Ordem  Urbanística  do Distrito  Federal  -  DF  LEGAL (6)***,  a  contar  de  ***31  de  outubro  de  2019 (7)***.
@@ -43,12 +45,11 @@ Motivo (11) |	'em virtude ou por estar sendo'
 > EXONERAR o ***Delegado de Polícia (9)*** ***SANDRO ERLON ORLANDO (1)***, matrícula ***57.648-4 (2)***, SIAPE ***1411315 (10)***, do Cargo em Comissão, Símbolo ***DFG-15 (3)***, de ***Vogal (4)***, da ***Comissão Permanente de Disciplina, da Corregedoria-Geral (5)***, da ***Polícia Civil do Distrito Federal (6)***.
 
 
-
 ## Exoneração de Cargos Efetivos
 
 Os ato de exoneração de cargos efetivos também começam na palavra "EXONERAR" e vão até  o ponto final. Esses atos são menos comuns que os atos de exoneração.
 
-### Tabela de atributos e padrões
+### Tabela de entidades e padrões
 
 As entidades que deverão ser identificadas são:
 
@@ -69,6 +70,8 @@ Motivo (12) | Sem padrão
 Fundamento Legal (13) |	Começa com 'nos termos do'
 
 ### Exemplos de atos de Exoneração de Cargo Efetivo
+
+Seguem exemplos de atos de Exoneração de Cargo Efetivo. A entidades anotadads estão ***destacadas*** e enumeradads conforme a tabela acima. Note que os exemplos, em sua maioria, não contemplam todos os atributos listadas. **A regra aqui é simples: marque todas as entidades que estiverem no ato.**
 
 > EXONERAR,  ***a  pedido (12)***,  ***ERASMO SOARES  DOS  PRAZERES (1)***,  ***Agente  de  Execução  Penal (3)***,  matrícula  nº  ***16826604 (2)***,  ***3ª (4)***  Classe,  Padrão  ***II (5)***,  da Carreira  de  ***Execução  Penal (6)***,  a  contar  de  ***19/12/2019 (10)***,  conforme  processo  nº  ***00050.0006664/2019-11 (9)***  -SEI.
 
