@@ -52,12 +52,24 @@ _**Ref**: DODF 10/06/2016, Seção 2., Página 30._
 ### Sugestão de processo de anotação
 
 1. Comece com uma busca global no documento pelos termos **"conceder ab"** ou **abono d**, usando Ctrl+F.
+![busca global](abono_perm1.png "busca global")
 
 2. Marque os atributos. Selecione a entidade, conforme ilustra a imagem abaixo, e marque cada um dos atributos de um ato. Se preferir, também é possível anotar várias instâncias de um mesmo atributo - anotar primeiro todos os nomes, depois todas as matrículas, ...
+![marcação entidades](abono_perm2.png "marcação entidades")
 
-3. Após ter todos os atributos de um ato anotados, anote o ato como um todo por meio da sua entidade identificadora. No caso, a entidade aqui é 'Aposentadoria'. Como você vai anotar por cima de outras anotações, o programa pergunta se você deseja realmente fazer um overlap. Clique no botão verde 'Create New Annotation'.
+3. Após ter todos os atributos de um ato anotados, anote o ato como um todo por meio da sua entidade identificadora. No caso, a entidade aqui é 'Abono de permanência'. Como a redação nesse exemplo foi feita de maneira que três atos distintos compartilham os atributos de Fundamento Legal da aposentadoria e Fundamento Legal do Abono, o que vamos fazer é anotar de maneira descontínua entidades de 'Abono de permanência' e depois unir esses nós com uma relação. As anotações da entidade 'Abono de permanência' aqui serão: 1. 'CONCEDER abono de permanência às servidoras'; 2. do NOME até o número do processo, para cada uma das três servidoras; 3. fundamento legal do abono e da aposentadoria. No final, teremos 5 instâncias da entidade 'Abono de permanência'. Como você vai anotar por cima de outras anotações, o programa pergunta se você deseja realmente fazer um overlap. Clique no botão verde 'Create New Annotation'.
+![overlap anotação](abono_perm3.png "overlap anotação")
+O print abaixo mostra as 5 instâncias de 'abono de permanência' anotadas:
+![anotações abono](abono_perm4.png "anotações abono")
 
-4. Adicione uma nova relação por meio da aba 'Relations'. É aqui que vamos garantir que os atributos anotados se refiram a um ato em específico. Clique no botão '+', Add New Relation. Quando você clicar nesse botão, é possível que o programa faça um scroll para início da página. Se isso acontecer, clique na seta para baixo do Ctrl+F e retorne para o ponto que você estava.
-Selecione o texto do ato por inteiro novamente. Selecione todos as entidades marcadas e clique no botão azul 'Add to relation'.
-
+4. Adicione uma nova relação por meio da aba 'Relations'. É aqui que vamos garantir que os atributos anotados se refiram a um ato em específico. Clique no botão '+', Add New Relation. Quando você clicar nesse botão, é possível que o programa faça um scroll para início da página. Se isso acontecer, clique na seta para baixo do Ctrl+F - ou tecle 'Ctrl+F + Enter' novamente no teclado - e retorne para o ponto que você estava.
+![adicionar relação](abono_perm5.png "adicionar relação")
+Se o texto do ato se referisse à apenas uma pessoa, bastaria selecionar o texto do ato por inteiro e adicionar uma relação contendo as entidades. No caso desse exemplo, vamos unir as marcações descontínuas da entidade 'abono de permanência' para criar relações individuais para cada ato específico. Como são três atos, criaremos três relações. Selecione todos as entidades marcadas e clique no botão azul 'Add to relation'.
+![primeira parte relação](abono_perm6.png "primeira parte relação")
+O resultado da operação acima será o disposto abaixo:
+![relação incompleta](abono_perm7.png "relação incompleta")
+Ainda não incluímos na relação os atributos de 'fundamento legal do abono' e 'fundamento legal da aposentadoria'. O procedimento para tanto é o mesmo anterior: basta selecionar o trecho faltante - que no caso é 'todas com fundamento...' até '...15 de maio de 2014' - e adicioná-lo à mesma relação. O resultado será o seguinte:
+![relação completa](abono_perm8.png "relação completa")
+Agora precisamos fazer o mesmo para os dois atos restantes. No total, como aqui temos três atos de abono de permanência, então teremos três relações que identificam unicamente cada ato. O resultado final será assim:
+![resultado final](abono_perm9.png "resultado final")
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho.
