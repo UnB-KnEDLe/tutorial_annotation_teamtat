@@ -78,3 +78,12 @@ Seguem exemplos de atos de Exoneração de Cargo Efetivo. A entidades anotadads 
 > EXONERAR,  ***a  pedido (12)***,  a  servidora  ***JAQUELINE  FERREIRA  DE  SOUZA (1)***,  matrícula  ***271.320-9 (2)***,  do Cargo  Efetivo  de  ***Médico  -  Medicina  do  Trabalho (3)***,  da  carreira  ***Médica (6)***,  com  lotação  na  ***Secretaria  de Estado  de  Economia  do  Distrito  Federal (8)***,  a  contar  de  ***07  de  novembro  de  2019 (10)***.
 
 > EXONERAR,  ***a  pedido (12)***,  ***VANESSA  SILVA  DESTO (1)***,  matrícula  ***nº245.097-6 (2)***,  ocupante  do  cargo  efetivo  de  ***Técnico  Socioeducativo (3)***,  da  Carreira  ***Socioeducativa (6)***,  do ***Quadro  de  Pessoal  do  Distrito  Federal (7)***  pertencente  à  ***Secretaria  de  Estado  de  Justiça  e  Cidadania  do Distrito  Federal (8)***,  a  contar  de  ***09/12/2019 (10)***.
+
+
+
+## Observações Gerais sobre os Atos de Exoneração:
+
+* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
+* Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
+* Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
+* É recomendado sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
