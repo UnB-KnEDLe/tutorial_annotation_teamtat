@@ -1,8 +1,10 @@
 # Tutorial de anotação de atos de retificação
 
-Primeiro é necessário verificar se existem atos de nomeação no DODF, para isso basta pressionar CTRL+F e pesquisar “LEIA-SE”. Desta forma, você tem noção de quantos atos de nomeação terá que anotar e onde eles estão. Depois, verifique se o ato de nomeação é de cargo comissionado ou de cargo efetivo, pois isso influencia nos tipos de entidades que terão que ser anotadas.
+Primeiro é necessário verificar se existem atos de nomeação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de cargo comissionado ou de cargo efetivo, pois isso influencia nos tipos de entidades que terão que ser anotadas.
 
 ## 1. Retificação de Cargo Comissionado e Funções de Confiança
+
+Os atos de retificação possuem os seguintes padrões, conforme o documento de requisitos do TCDF:
 
 ### Padrão 1
 
@@ -53,10 +55,10 @@ No [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicado no Supleme
 
 As entidades que deverão ser identificadas são:
  
-Entidade | Descrição  | Padrão    
--------- | ------- | -------
-NOME_SERVIDOR | Nome do Servidor | Letras maiúsculas    
-NOME_SERVIDOR | Cargo Efetivo | Sem padrão 
+Descrição  | Padrão    
+------- | -------
+Nome do Servidor | Letras maiúsculas    
+Cargo Efetivo | Sem padrão 
 Matrícula | Após 'matrícula n°' 
 Matrícula SIAPE | Após 'SIAPE' 
 Símbolo | Após 'Símbolo'
@@ -80,29 +82,19 @@ No [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicado no DODF nr
 - INFORMACAO_ERRADA (obrigatório): Informação errada
 - INFORMACAO_CORRIGIDA (obrigatório): Informação corrigida
 
-
-## 2. Retificação de Cargo Efetivo
-
-RETIFICAR o [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicado no DODF No [NUMERO_DODF], de [DATA_DODF], referente [TIPO_DE_ATO] ao(à) servidor(a): [NOME_SERVIDOR], [CARGO_EFETIVO], matrícula [MATRÍCULA], [CARGO_EFETIVO], Classe [CLASSE], Padrão [PADRAO], do [LOTACAO], matrícula SIAPE no [MATRICULA_SIAPE], para constar onde se lê: [INFORMACAO_ERRADA], leia-se [INFORMACAO_CORRETA], mantendo-se os demais termos do [TIPO_DE_ATO].
-
-
-#### 1.1. Exemplos de atos de nomeação de cargo comissionado.
+#### 1.1. Exemplos de atos de retificação de cargo comissionado.
 
 > NOMEAR ***VALÉRIA LEITE BERNIZ*** **(1)**, ***Professor*** **(2)**, matrícula ***211.341-4*** **(3)**, para exercer a Função Gratificada Escolar, Símbolo ***FGE-04*** **(5)**, de ***Diretor*** **(6)**, do ***Centro de Educação Infantil 01 de Brasília, da Coordenação Regional de Ensino do Plano Piloto*** **(7)**, da ***Secretaria de Estado de Educação do Distrito Federal*** **(8)**. 
 >
-> NOMEAR ***AILTON FERREIRA DE OLIVEIRA*** **(1)** para exercer o Cargo em Comissão, Símbolo ***DFA-11*** **(5)**, de ***Assessor*** **(6)**, do ***Gabinete*** **(7)**, da ***Administração Regional do Cruzeiro do Distrito Federal*** **(8)**. 
+
+
+
+
+#### 1.1. Exemplos de atos de retificação de cargo comissionado.
+
+> NOMEAR ***VALÉRIA LEITE BERNIZ*** **(1)**, ***Professor*** **(2)**, matrícula ***211.341-4*** **(3)**, para exercer a Função Gratificada Escolar, Símbolo ***FGE-04*** **(5)**, de ***Diretor*** **(6)**, do ***Centro de Educação Infantil 01 de Brasília, da Coordenação Regional de Ensino do Plano Piloto*** **(7)**, da ***Secretaria de Estado de Educação do Distrito Federal*** **(8)**. 
 >
-> NOMEAR ***JEANNE MATIAS LOPES*** **(1)** para exercer o Cargo de ***Conselheiro Tutelar*** **(6)**, do ***Conselho Tutelar de Aguas Claras*** **(7)**, da ***Secretaria de Estado de Justica e Cidadania do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***PAULO DA SILVA MIRANDA JUNIOR*** **(1)**, matricula ***242.353-7*** **(3)**, para o Cargo em Comissao, Simbolo ***DFA-10*** **(5)**, de ***Assessor Tecnico*** **(6)**, da ***Diretoria de Infraestrutura, da Coordenacao de Inovacao, Tecnologia da Informacao e Comunicacao, da Subsecretaria de Administracao-Geral*** **(7)**, da ***Defensoria Publica do Distrito Federal*** **(8)**. 
->
->NOMEAR ***MIRIAN SANTANA NASCIMENTO*** **(1)**, matricula ***267.087-9*** **(3)**, do Cargo em Comissao, Simbolo ***DFA-12*** **(5)**, de ***Assessor*** **(6)**, da ***Gerencia de Desenvolvimento, da Coordenacao de Inovacao, Tecnologia da Informacao e Comunicacao, da Subsecretaria de Administracao-Geral*** **(7)**, da ***Defensoria Publica do Distrito Federal*** **(8)**, conforme processo SEI no 00401-00000118/2020-86. 
->
-> NOMEAR ***RICARDO TERENZI CARDOSO*** **(1)** para exercer o Cargo de Natureza Especial, Simbolo ***CNE-02*** **(5)**, de ***Subsecretario*** **(6)**, da ***Subsecretaria de Acompanhamento e Fiscalizacao*** **(7)**, da ***Secretaria de Estado de Obras e Infraestrutura do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***JULIANA DATO FERREIRA LEAL*** **(1)** para exercer o Cargo de Natureza Especial, Símbolo ***CNE-06*** **(5)**, de ***Assesor Especial*** **(6)**, da ***Junta Comercial,Industrial e Serviços do Distrito Federal*** **(8)**. 
->
-> NOMEAR o __*Agente de Polícia*__ **(2)** __*LEONARDO PENA VALADARES*__ **(1)**, matrícula __*78.824-4*__ **(3)**, SIAPE __*1545282*__ **(4)**, para exercer o Cargo em Comissão, Símbolo __*DFG-08*__ **(5)**, de __*Chefe de Plantão*__ **(6)**, da ***Divisão de Perícias Externas, do Instituto de Criminalística, do Departamento de Polícia Técnica*** **(7)**, da ***Polícia Civil do Distrito Federal*** **(8)**. 
+
 
 **(1)** Nome do servidor  
 **(2)** Cargo efetivo  
@@ -135,13 +127,11 @@ RETIFICAR o [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicado n
 
 10. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde ‘NOMEAR” até o ponto final mais próximo.
 
-### 2. Nomeação de Cargo Efetivo
+## 2. Retificação de Cargo Efetivo
 
-Atos de nomeação de cargo efetivo são mais extensos em comparação aos atos de nomeação de cargo comissionado. Eles também possuem mais entidadess que devem ser anotadas e por isso exigem mais atenção, o melhor é anotar um ato de cada vez, prestando bastante atenção para não confundir datas e numeros do DODF. 
-  
-Uma das formas de diferenciar tais atos dos atos de nomeação de cargo comissionado é observando o fato de que logo após a palavra "NOMEAR" gerealmente se encontra as palavras "os candidatos abaixo".
- 
- As entidades que deverão ser identificadas são:
+RETIFICAR o [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicado no DODF No [NUMERO_DODF], de [DATA_DODF], referente [TIPO_DE_ATO] ao(à) servidor(a): [NOME_SERVIDOR], [CARGO_EFETIVO], matrícula [MATRÍCULA], [CARGO_EFETIVO], Classe [CLASSE], Padrão [PADRAO], do [LOTACAO], matrícula SIAPE no [MATRICULA_SIAPE], para constar onde se lê: [INFORMACAO_ERRADA], leia-se [INFORMACAO_CORRETA], mantendo-se os demais termos do [TIPO_DE_ATO].
+
+As entidades que deverão ser identificadas são:
   
 Entidades | Padrão   
 -------- | ------- 
