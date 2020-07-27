@@ -83,24 +83,6 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
 (15) | INFORMACAO_CORRIGIDA | Informação Corrigida |	Após 'LEIA-SE' | (obrigatório)
 (16) | TIPO_EDICAO | Tipo de edição |	Sem Padrão | (não obrigatório)
   
-Entidades | Padrão   
--------- | ------- 
-Tipo de documento (1) | Sem Padrão
-Número do documento onde está o item tornado sem efeito (2) | Sem Padrão
-Data do documento onde está o item tornado sem efeito (3) | Sem Padrão
-Número do DODF (4) | Após 'n°'
-Data do DODF (5) |	Sem Padrão
-Página do DODF (6) |	Após 'página'
-Nome do Servidor (7) |	Letras maiúsculas
-Matrícula (8) |	Após 'matrícula n°'
-Cargo Efetivo  (9)|	Sem Padrão
-Classe (10) |	Após cargo
-Padrão (11) |	Após Classe
-Matricula SIAPE (12) |	SIAPE
-Informação Errada (13) |	Após 'ONDE SE LÊ'
-Informação Corrigida (14) |	Após 'LEIA-SE'  
-
-
 ### Exemplos de atos de retificação de cargo efetivo
 
 > RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(2)**, publicado no DODF nº **223(3)**, de **25 de novembro de 2019(4)**, pág. **08(5)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(7)**, matrícula nº **1.431.009-0(8)**, **Analista em Políticas Públicas e Gestão Governamental**, desta Secretaria de Estado de Economia do Distrito Federal, ONDE SE LÊ: "...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..." LEIA-SE: "...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."
