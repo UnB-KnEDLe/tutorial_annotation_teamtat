@@ -1,10 +1,15 @@
 # Ato de Exoneração
 
+Exoneração é o desligamento de um cargo, em Direito público, é a eliminação do exercício de um cargo técnico ou administrativo promovido por nomeação ou designação; a exoneração pode ser voluntária ou por recomendação da autoridade.
+
+_Refs:_
+1. <a href="https://pt.wikipedia.org/wiki/Exonera%C3%A7%C3%A3o">https://pt.wikipedia.org/wiki/Exonera%C3%A7%C3%A3o</a>
+
 Para encontrar os atos de Exoneração no documento do DODF, basta pressionar CTRL+F e pesquisar por "EXONERAR". Após isso, é necessãrio identificar se o ato é de **Exoneração** ou de **Exoneração de Cargo Efetivo**, pois as entidades a ser anotadas são diferentes.
 
 ## Exoneração
 
-Os atos de exoneração começam com a palavra "EXONERAR" e vão até o ponto final. Geralmente, há a indicação de que o cargo a ser exonerado é um cargo em comissão ou cargo de natuaza especial.
+Os atos de exoneração começam com a palavra "EXONERAR" e vão até o ponto final. Geralmente, há a indicação de que o cargo a ser exonerado é um cargo em comissão ou cargo de natureza especial.
 
 ### Tabela de entidades e padrões
 
@@ -80,10 +85,12 @@ Seguem exemplos de atos de Exoneração de Cargo Efetivo. A entidades anotadads 
 > EXONERAR,  ***a  pedido (12)***,  ***VANESSA  SILVA  DESTO (1)***,  matrícula  ***nº245.097-6 (2)***,  ocupante  do  cargo  efetivo  de  ***Técnico  Socioeducativo (3)***,  da  Carreira  ***Socioeducativa (6)***,  do ***Quadro  de  Pessoal  do  Distrito  Federal (7)***  pertencente  à  ***Secretaria  de  Estado  de  Justiça  e  Cidadania  do Distrito  Federal (8)***,  a  contar  de  ***09/12/2019 (10)***.
 
 
-
 ## Observações Gerais sobre os Atos de Exoneração:
 
 * Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
 * Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
 * Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
 * É recomendado sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
+
+
+Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho.
