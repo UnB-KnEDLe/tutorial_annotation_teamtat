@@ -1,6 +1,6 @@
 # Ato de Retificação
 
-Primeiro é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **aposentadoria**, pois isso influencia nos tipos de entidades que serão anotadas.
+Primeiro é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **cargo efetivo**, pois isso influencia nos tipos de entidades que serão anotadas.
 
 ## Retificação de Cargo Comissionado e Funções de Confiança
 
@@ -58,7 +58,7 @@ Casos não contemplados no documento de requisitos do TCDF:
 
 ## Retificação - Cargo efetivo
 
-RETIFICAR o **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no DODF nº **[NUMERO_DODF]**, de **[DATA_DODF]**, referente **[TIPO_DE_ATO]** ao(à) servidor(a): **[NOME_SERVIDOR]**, **[CARGO_EFETIVO]**, matrícula **[MATRÍCULA]**, Classe **[CLASSE]**, Padrão **[PADRAO]**, do **[LOTACAO]**, matrícula SIAPE no **[MATRICULA_SIAPE]**, para constar onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
+RETIFICAR o **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no DODF nº **[NUMERO_DODF]**, de **[DATA_DODF]**, referente **[TIPO_DE_ATO]** ao(à) servidor(a): **[NOME_SERVIDOR]**, matrícula **[MATRÍCULA]**, **[CARGO_EFETIVO]**, Classe **[CLASSE]**, Padrão **[PADRAO]**, do **[LOTACAO]**, matrícula SIAPE no **[MATRICULA_SIAPE]**, para constar onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
 
 ### Tabela de entidades e padrões
 
@@ -74,8 +74,8 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
 (6) | PAGINA_DODF | Página do DODF | Após 'página' | (não obrigatório)
 (7) | TIPO_DE_ATO | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que' | (obrigatório)
 (8) | NOME_SERVIDOR | Nome do Servidor |	Letras maiúsculas | (obrigatório)
-(9) | CARGO_SERVIDOR | Cargo Efetivo do Servidor |	Letras maiúsculas | (obrigatório)
-(10) | MATRICULA_SERVIDOR | Matrícula do Servidor |	Após 'matrícula n°' | (obrigatório)
+(9) | MATRICULA_SERVIDOR | Matrícula do Servidor |	Após 'matrícula n°' | (não obrigatório)
+(10) | CARGO_SERVIDOR | Cargo Efetivo do Servidor |	Letras maiúsculas | (obrigatório)
 (11) | CLASSE_SERVIDOR | Nome do Servidor |	Após cargo | (não obrigatório)
 (12) | PADRAO_SERVIDOR | Padrãodo Servidor |	Após Classe | (não obrigatório)
 (13) | LOTACAO | Lotação |	Sem Padrão | (não obrigatório)
@@ -85,17 +85,13 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
   
 ### Exemplos de atos de retificação de cargo efetivo
 
-> RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(2)**, publicado no DODF nº **223(3)**, de **25 de novembro de 2019(4)**, pág. **08(5)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(7)**, matrícula nº **1.431.009-0(8)**, **Analista em Políticas Públicas e Gestão Governamental**, desta Secretaria de Estado de Economia do Distrito Federal, ONDE SE LÊ: "...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..." LEIA-SE: "...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."
+> RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(3)**, publicado no DODF nº **223(4)**, de **25 de novembro de 2019(5)**, pág. **08(6)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(8)**, matrícula nº **1.431.009-0(9)**, **Analista em Políticas Públicas e Gestão Governamental(10)**, desta **Secretaria de Estado de Economia do Distrito Federal(13)**, ONDE SE LÊ: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..."(14)** LEIA-SE: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."(15)**.
 
-> RETIFICAR, na Ordem de Serviço de 06 de junho de 1989, publicada no DODF nº 108 - Suplemento, de 09/06/1989, pág. 15, o ato que averbou o tempo de serviço militar do Servidor MANOEL SANTOS DE SOUZA, matrícula nº 30.218-X, para fazer constar: ONDE SE LÊ:"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria...". LEIA-SE: "...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."
+> RETIFICAR, na **Ordem de Serviço(1)** de **06 de junho de 1989(3)**, publicada no DODF nº **108(4)** - Suplemento, de **09/06/1989(5)**, pág. **15(6)**, o ato que **averbou(7)** o tempo de serviço militar do Servidor **MANOEL SANTOS DE SOUZA(8)**, matrícula nº **30.218-X(9)**, para fazer constar: ONDE SE LÊ:**"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria..."(14)**. LEIA-SE: **"...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."(15)**.
+ 
+> RETIFICAR, na **Ordem de Serviço(1)** coletiva nº **98(2)**, de **26/11/2019(3)**, publicada no DODF nº **225(4)**, de **27/11/2019(5)**, o ato que **concedeu(7)** pensão vitalícia a MARIA SOCORRO FERREIRA DE BARROS, cônjuge do ex-servidor **JERÔNIMO JANUÁRIO DE BARROS(8)**, matrícula nº **00.662-X(9)**, **Técnico em Políticas Públicas e Gestão Governamental(10)**, Classe **Única(11)**, Padrão **IX(12)**, do **Quadro de Pessoal do Distrito Federal(13)**, para corrigir a matrícula do ex-servidor, onde se lê: **"matrícula nº 00.662-X"(14)**, leia-se: **"matrícula nº 00.622X"(15)**, ficando ratificados os demais termos da concessão inicial. Processo nº 00413-00005231/2019-21.
 
-> 
-> Na **Ordem de Serviço(1)** n° **03(2)**, de **08 de janeiro de 2020(3)**, publicada no DODF n° **10(4)** de **15 de janeiro de 2020(5)**, página **12(6)**, solicitamos a republicação, tendo em vista o erro apresentado no nome do Membro **LIEZER ROSA DE FREITAS(8)**, matrícula: 35.493-7. ONDE SE LÊ: "...LIEZER ROSA DA SILVA, matrícula: 35.493-7...", LEIA-SE: "...LIEZER ROSA DE FREITAS, matrícula: 35.493-7...". Documento assinado digitalmente conforme MP nº 2.200-2 de 24/08/2001, que institui a Infraestrutura de Chaves Públicas Brasileira - ICP-Brasil.
-
-
-### Sugestão de como ralizar a anotação de um ato de retificação - aposentadorias:
-
-### Sugestão de como realizar a anotação de um ato de retificação:
+## Sugestão de como realizar a anotação de um ato de retificação:
 
 1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato.
 
@@ -114,10 +110,3 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
 8. **Anote as hierarquias das lotações.** São todas as palavras que ficam entre o cargo em comissão e o órgão. O tamanho deste atributo varia bastante.  
 
 9. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde ‘NOMEAR” até o ponto final mais próximo.
-
-### Observações Gerais sobre os Atos de Retificação:
-
-* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
-* Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
-* Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
-* Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
