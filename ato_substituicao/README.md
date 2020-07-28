@@ -25,15 +25,14 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
 (11) | DATA_INICIAL | Data Inicial da Vigência |	Após 'no período de' | (não obrigatório)
 (12) | DATA_FINAL | Data Final de Vigência |	Após Data Inicial da Vigência| (não obrigatório)
 (13) | MATRICULA_SIAPE | Matrícula SIAPE |	Após 'SIAPE' | (não obrigatório)
-(14) | MOTIVO | Informação Errada |	'em virtude ou a pedido' | (não obrigatório)
+(14) | MOTIVO | Motivo da substituição |	'em virtude ou a pedido' | (não obrigatório)
   
 ## Exemplos de atos de substituição de função
 
-> Art. 1º Designar ANA PAULA VEIGA TRIERS, matrícula 1402016-5, como executora substituta do Convênio nº 008/2019 - NCC/CODAG/FHB, em substituição a Ysis Martins Aquino, matrícula: 1681885-7, objeto do processo nº 00063-00002158/2019-34. Art. 2º Designar ANA PAULA VEIGA TRIERS, matrícula 1402016-5, como executora principal do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Ysis Martins Aquino, matrícula: 1681885-7, e Ana Louise Ferreira de Araújo, matrícula 1694463-1, como executora substituta do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Madellon Melo de Assis, matrícula: 1681964-0, objeto do processo nº 00063-00000127/2019-49. Art. 3º Esta Instrução entra em vigor na data de sua publicação. BARBARA DE JESUS SIMÕES
+> Art. 1º Designar **ANA PAULA VEIGA TRIERS(1)**, matrícula **1402016-5(2)**, como **executora substituta do Convênio nº 008/2019 - NCC/CODAG/FHB(5)**, em substituição a **Ysis Martins Aquino(3)**, matrícula: **1681885-7($)**, objeto do processo nº 00063-00002158/2019-34. Art. 2º Designar ANA PAULA VEIGA TRIERS, matrícula 1402016-5, como executora principal do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Ysis Martins Aquino, matrícula: 1681885-7, e Ana Louise Ferreira de Araújo, matrícula 1694463-1, como executora substituta do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Madellon Melo de Assis, matrícula: 1681964-0, objeto do processo nº 00063-00000127/2019-49. Art. 3º Esta Instrução entra em vigor na data de sua publicação. BARBARA DE JESUS SIMÕES
 
 > DESIGNAR LUCILENE RODRIGUES DE OLIVEIRA DO NASCIMENTO, matrícula nº 1.690.884-8, Assessor Técnico, do Gabinete, Símbolo DFA-08, para substituir, sem acumular vencimentos e sem prejuízos de suas atribuições, a servidora JAMEL REIS AL-HAKIM SALGADO, matrícula nº 1.690.175-4, Chefe, do Núcleo de Atendimento, Protocolo e Arquivo, Símbolo DFG-12, da Administração Regional de Planaltina, da Secretaria de Estado de Governo do Distrito Federal, no período de 03 de fevereiro de 2020 a 12 de fevereiro de 2020, por motivo de férias regulamentares da titular. GILSON AMORIM SOBRINHO
  
-> RETIFICAR, na **Ordem de Serviço(1)** coletiva nº **98(2)**, de **26/11/2019(3)**, publicada no DODF nº **225(4)**, de **27/11/2019(5)**, o ato que **concedeu(7)** pensão vitalícia a MARIA SOCORRO FERREIRA DE BARROS, cônjuge do ex-servidor **JERÔNIMO JANUÁRIO DE BARROS(8)**, matrícula nº **00.662-X(9)**, **Técnico em Políticas Públicas e Gestão Governamental(10)**, Classe **Única(11)**, Padrão **IX(12)**, do **Quadro de Pessoal do Distrito Federal(13)**, para corrigir a matrícula do ex-servidor, onde se lê: **"matrícula nº 00.662-X"(14)**, leia-se: **"matrícula nº 00.622X"(15)**, ficando ratificados os demais termos da concessão inicial. Processo nº 00413-00005231/2019-21.
 
 ## Sugestão de como realizar a anotação de um ato de retificação:
 
