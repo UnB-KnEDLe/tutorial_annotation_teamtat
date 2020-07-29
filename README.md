@@ -1,189 +1,72 @@
 # Tutorial de Anotação
 
-## Anotação de atos de aposentadoria
+Nesse repositório está o tutorial de como anotar os documentos do Diário Oficial do Distrito Federal (DODF) de acordo com os requisitos do Tribunal de Contas do Distrito Federal (TCDF).
 
-### Entidades
+A ferramenta usada para realizar as anotações será o [TeamTat](https://www.teamtat.org/). Essa é uma ferramenta online para anotação que permite que várias pessoas anotem e revisem um mesmo documento facilitando a geração de uma base de dados padrão ouro.
 
-## Anotação de atos de nomeação
 
-Primeiro é necessário verificar se existem atos de nomeação no DODF, para isso basta pressionar CTRL+F e pesquisar “NOMEAR”. Desta forma, você tem noção de quantos atos de nomeação terá que anotar e onde eles estão. Depois, verifique se o ato de nomeação é de cargo comissionado ou de cargo efetivo, pois isso influencia nos tipos de entidades que terão que ser anotadas. 
+A anotação dos documentos do DODF será feita a nível de atos de entidades. Os atos as serem anotados estão apresentados a seguir e as respectivas entidades estão nos tutoriais individuais dos atos.
 
-### 1. Nomeação de Cargo Comissionado
+*   [Exoneração](ato_exoneracao/exoneracao.md)
+*   [Nomeação](ato_nomeacao/nomeacao.md)
+*   [Ato tornado sem efeitos](ato_tornado_sem_efeito/ato_tornado_sem_efeito.md)
+*   [Retificação](ato_retificacao/retificacao.md)
+*   [Aposentadoria](ato_aposentadoria/aposentadoria.md)
+*   [Reversão](ato_reversao/reversao.md)
+*   [Abono de permanência](ato_abono_permanencia/abono_permanencia.md)
+*   [Retificação](ato_retificacao)
+*   [Substituição de Funções](ato_substituicao)
+*   [Cessão](ato_cessoes/cessoes.md)
+*   [Reposicionamento de Lista de Classificação](ato_reposiscionametno/reposicionamento)
 
-  Atos de nomeação de cargo comissionado, geralmente são menores e vão da palavra “NOMEAR” até o próximo ponto final. Também é comum que apareçam vários de uma vez, um seguido do outro ou com alguns atos de exoneração entre eles. 
- 
-As entidades que deverão ser identificadas são:
- 
-Entidade | Padrão    
--------- | -------
-Nome do Servidor | Letras maiúsculas    
-Cargo Efetivo | Sem padrão 
-Matrícula | Após 'matrícula n°' 
-Matrícula SIAPE | Após 'SIAPE' 
-Símbolo | Após 'Símbolo' 
-Cargo em Comissão | Após o atributo Símbolo 
-Hierarquia da Lotação | Após o atributo Cargo em Comissão 
-Orgão | Após o atributo Hierarquia da Lotação 
 
-#### 1.1. Exemplos de atos de nomeação de cargo comissionado.
+Vamos começar!
 
-> NOMEAR ***VALÉRIA LEITE BERNIZ*** **(1)**, ***Professor*** **(2)**, matrícula ***211.341-4*** **(3)**, para exercer a Função Gratificada Escolar, Símbolo ***FGE-04*** **(5)**, de ***Diretor*** **(6)**, do ***Centro de Educação Infantil 01 de Brasília, da Coordenação Regional de Ensino do Plano Piloto*** **(7)**, da ***Secretaria de Estado de Educação do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***AILTON FERREIRA DE OLIVEIRA*** **(1)** para exercer o Cargo em Comissão, Símbolo ***DFA-11*** **(5)**, de ***Assessor*** **(6)**, do ***Gabinete*** **(7)**, da ***Administração Regional do Cruzeiro do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***JEANNE MATIAS LOPES*** **(1)** para exercer o Cargo de ***Conselheiro Tutelar*** **(6)**, do ***Conselho Tutelar de Aguas Claras*** **(7)**, da ***Secretaria de Estado de Justica e Cidadania do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***PAULO DA SILVA MIRANDA JUNIOR*** **(1)**, matricula ***242.353-7*** **(3)**, para o Cargo em Comissao, Simbolo ***DFA-10*** **(5)**, de ***Assessor Tecnico*** **(6)**, da ***Diretoria de Infraestrutura, da Coordenacao de Inovacao, Tecnologia da Informacao e Comunicacao, da Subsecretaria de Administracao-Geral*** **(7)**, da ***Defensoria Publica do Distrito Federal*** **(8)**. 
->
->NOMEAR ***MIRIAN SANTANA NASCIMENTO*** **(1)**, matricula ***267.087-9*** **(3)**, do Cargo em Comissao, Simbolo ***DFA-12*** **(5)**, de ***Assessor*** **(6)**, da ***Gerencia de Desenvolvimento, da Coordenacao de Inovacao, Tecnologia da Informacao e Comunicacao, da Subsecretaria de Administracao-Geral*** **(7)**, da ***Defensoria Publica do Distrito Federal*** **(8)**, conforme processo SEI no 00401-00000118/2020-86. 
->
-> NOMEAR ***RICARDO TERENZI CARDOSO*** **(1)** para exercer o Cargo de Natureza Especial, Simbolo ***CNE-02*** **(5)**, de ***Subsecretario*** **(6)**, da ***Subsecretaria de Acompanhamento e Fiscalizacao*** **(7)**, da ***Secretaria de Estado de Obras e Infraestrutura do Distrito Federal*** **(8)**. 
->
-> NOMEAR ***JULIANA DATO FERREIRA LEAL*** **(1)** para exercer o Cargo de Natureza Especial, Símbolo ***CNE-06*** **(5)**, de ***Assesor Especial*** **(6)**, da ***Junta Comercial,Industrial e Serviços do Distrito Federal*** **(8)**. 
->
-> NOMEAR o __*Agente de Polícia*__ **(2)** __*LEONARDO PENA VALADARES*__ **(1)**, matrícula __*78.824-4*__ **(3)**, SIAPE __*1545282*__ **(4)**, para exercer o Cargo em Comissão, Símbolo __*DFG-08*__ **(5)**, de __*Chefe de Plantão*__ **(6)**, da ***Divisão de Perícias Externas, do Instituto de Criminalística, do Departamento de Polícia Técnica*** **(7)**, da ***Polícia Civil do Distrito Federal*** **(8)**. 
+Primeiramente, é fornecida uma URL única para o anotador. Com ela, é possível acessar os projetos e os documentos a serem anotados, portanto, é importante salvá-la em um lugar em que possa ser acessada posteriormente. 
 
-**(1)** Nome do servidor  
-**(2)** Cargo efetivo  
-**(3)** Matrícula  
-**(4)** Matrícula SIAPE  
-**(5)** Símbolo  
-**(6)** Cargo em comissão  
-**(7)** Hierarquia da lotação  
-**(8)** Órgão  
+Ao acessar a URL, o anotador é direcionado para a página de perfil de usuário do TeamTat, em que é possível modificar seu nome de usuário e enviar a URL de acesso por e-mail.
 
-#### 1.2. Sugestão de como ralizar a anotação de um ato de nomeação de cargo comissionado:
+![alt text](imagens/profile.PNG "Perfil de usuário")
 
-1. **Selecione de onde até onde você irá anotar.** Aconselho anotar de parágrafo em parágrafo.
+Para acessar os documentos a serem anotados, basta clicar em "Projects" e, em seguida, no projeto referente ao documento desejado. 
 
-2. **Anote todos os nomes dos servidores.** São todas as palavras em caixa alta que aparecem logo após a palavra “NOMEAR”, ficar atento porque às vezes o cargo efetivo aparece aparece antes do nome, mas ela estará em caixa baixa. Anote apenas as palavras em caixa alta.
+![alt text](imagens/project.PNG "Projetos")
 
-3. **Anote os cargos efetivos.** Eles aparecerão perto do nome, ou antes ou depois.
+Os rótulos usados para a anotação estão diponíveis na aba "Types".
 
-4. **Anote as matrículas.** Sempre aparecem logo depois da palavra “matrícula”.
+![alt text](imagens/types.PNG "Rótulos dos atos e entidades")
 
-5. **Anote as matrículas SIAPE.** Aparecem depois de “SIAPE”. São bem raras, só se aplicam à Polícia Civil, à Polícia Militar e ao Corpo de Bombeiros Militar.
+Vamos começar a anotar!
 
-6. **Anote os símbolos.** Sempre aparecem logo depois da palavra “símbolo”.
+Para encontrar os atos a serem anotdados no documento, pesquise, pressionando CTRL+F, a palavra chave do ato em questão. Este tutorial mostra a anotação de um ato de exoneração como exemplo, então será pesquisada a palavra "exonerar". A pesquisa também indicará quantos atos desse tipo existem no documento.
 
-7. **Anote os cargos em comissão.** Sempre aparecem depois dos símbolos.
+![alt text](imagens/ctrlF.PNG "Busca Global")
 
-8. **Anote os orgãos** Sempre são as últimas palavras, ficam entre a última vírgula e o ponto final.
+Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escolhido no documento, 20 ou menos, é recomendado anotar uma entidade por vez, ou seja, anote todos os nomes de servidores do documento,  todas as matrículas do documento e assim por diante. Caso haja muitos atos, é recomentado anotar as entidades por parágrafo. 
 
-9. **Anote as hierarquias das lotações.** São todas as palavras que ficam entre o cargo em comissão e o órgão. O tamanho deste atributo varia bastante.  
+Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Então, com o mouse, selecione o texto correspondente a esse rótulo. 
 
-10. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde ‘NOMEAR” até o ponto final mais próximo.
+![alt text](imagens/rotulo.PNG "Rótulo selecionado")
 
-### 2. Nomeação de Cargo Efetivo
+![alt text](imagens/entidade-1.PNG "Texto selecioando e entidade anotada")
 
-Atos de nomeação de cargo efetivo são mais extensos em comparação aos atos de nomeação de cargo comissionado. Eles também possuem mais entidadess que devem ser anotadas e por isso exigem mais atenção, o melhor é anotar um ato de cada vez, prestando bastante atenção para não confundir datas e numeros do DODF. 
-  
-Uma das formas de diferenciar tais atos dos atos de nomeação de cargo comissionado é observando o fato de que logo após a palavra "NOMEAR" gerealmente se encontra as palavras "os candidatos abaixo".
- 
- As entidades que deverão ser identificadas são:
-  
-Entidades | Padrão   
--------- | ------- 
-Edital Normativo | Começa com 'Edital Normativo' 
-Data do Edital Normativo | Sem Padrão 
-Número do DODF do Edital Normativo | Após 'publicado no DODF n°', logo após Edital Normativo 
-Data do DODF do Edital Normativo | Após Número do DODF do Edital Normativo 
-Edital de Resultado Final | Começa com 'Edital de Homologação' ou 'Edital de Resultado Final' 
-Data do Edital de Resultado Final | Após Edital de Resultado Final 
-Número do DODF do Edital de Resultado Final | Após 'publicado no DODF n°', logo após Data do Edital de Resultado Final 
-Data do DODF do Edital de Resultado Final | Após Número do DODF do Edital de Resultado Final 
-Cargo | Após 'cargo de' 
-Especialidade | Sem padrão, geralmente antes dos Nomes dos Candidatos 
-Carreira | Após 'carreira' 
-Órgão | Após 'do Quadro de Pessoal'  
-Nome do Candidato | Letras maiúsculas 
-Classificação | Após Nome do Candidato   
-Portador de deficiência/necessidades especiais | Começa com 'portador de deficiência' 
-Processo GDF/SEI | Após 'SEI n°'   
+O texto selecionado ficará grifado com a cor correspondente ao rótulo escolhido.
 
-#### 2.1. Exemplos de atos de nomeação de cargo efetivo.
+Após anotar as entidades do ato, é necessário anotar o ato completo. Para isso, escolha o rótulo do ato na aba esquerda e selecione o texto correspondente. Uma tela pop-up irá aparecer, pois já existem anotações no texto selecionado. Nessa tela, escolha a opção "Create New Annotation". 
 
-> NOMEAR, os candidatos abaixo aprovados, conforme instrução dos autos do processo SEI n.º ***00410-00020280/2017-14*** **(16)**, no concurso público a que se refere o ***Edital Normativo nº 01*** **(1)**, de ***22 de janeiro de 2014*** **(2)**, publicado no DODF nº ***19*** **(3)**, de ***24 de janeiro de 2014*** **(4)** e ***Edital de Resultado Final nº 07*** **(5)**, de ***25 de agosto de 2014*** **(6)**, publicado no DODF nº ***180*** **(7)**, de ***29 de agosto de 2014*** **(8)**, para exercerem o cargo de ***Técnico de Atividades Culturais*** **(9)**, da Carreira ***Atividades Culturais*** **(11)**, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, conforme a seguir (especialidade, nome, classificação):
-***AGENTE ADMINISTRATIVO*** **(10)**: ***DEBORA APARECIDA DE ALMEIDA REGO*** **(13)**, ***64***º **(14)**; ***MARIANA OLIVEIRA MACEDO*** **(13)**, ***65***º **(14)**; ***PHELIPE MAGO PONCIANO BORGES*** **(13)**, ***66***º **(14)**. ***Portador de Deficiência*** **(15)**: ***JANAINA AMARAL MAGALHAES*** **(13)**, ***17***º **(14)**. ***TÉCNICO EM CONTABILIDADE*** **(10)**: ***ROMERO PINTO PEDROSA*** **(13)**, ***19***º **(14)**.
->
-> NOMEAR os candidatos abaixo, aprovados no concurso público a que se refere ***Edital Normativo n° 06/2018 - SES/DF*** **(1)**, publicado no DODF n° ***43*** **(3)**, de ***05 de março de 2018*** **(4)** e ***Edital de Homologação de Resultado Final n° 39/2018 - SES/DF*** **(5)**, publicado no DODF n° ***126*** **(7)**, de ***05 de julho de 2018*** **(8)**, para exercerem o cargo de ***MÉDICO*** **(9)**, da carreira ***Médica*** **(11)**, do Quadro de Pessoal da ***Secretaria de Estado de Saúde do Distrito Federal*** **(12)**, em substituição às nomeações tornadas sem efeito em decorrência do não comparecimento para tomar posse em tempo hábil e em substituição às exonerações e vacâncias ocorridas no período de 23/03/2018 a 12/07/2018, conforme instrução dos autos do processo SEI n° ***00060-00234428/2018-78*** **(16)**, conforme a seguir: (especialidade, nome e classificação) 
->***MÉDICO*** **(9)** - ***CANCEROLOGIA*** **(10)**: ***RAFAELA VELOSO RIBEIRO*** **(13)**, ***1***° **(14)**; ***RAQUEL BAPTISTA PIO*** **(13)**, **2**° **(14)**; ***CIBELLI NAVARRO RODRIGUES ALVES*** **(13)**, ***3***° **(14)**; ***ANDRE VICTOR TOMAZ JAPIASSU*** **(13)**, ***4***° **(14)**; ***FABIOLA VASCONCELOS ALVES*** **(13)**, ***5***° **(14)**.
->***MÉDICO*** **(9)** - ***CARDIOLOGIA*** **(10)**: ***CARLOS HENRIQUE REIS ESSELIN RASSI*** **(13)**, ***1***° **(14)**; ***ADRIANA ABREU RESENDE*** **(13)**, ***2***° **(14)**, ***XIMENA FERRUGEM ROSA*** **(13)**, ***3***° **(14)**; ***RENATO CABRAL DE PAULA*** **(13)**, ***4***° **(14)**; ***LORENA TAVEIRA AMARAL*** **(13)**, ***5***° **(14)**; ***BRUNO LEONARDO DUARTE PEREIRA*** **(13)**, ***6***° **(14)**; ***JOSE MAURICIO HIGASHI DE FREITAS*** **(13)**, ***7***° **(14)**; ***DIEGO MARTINS DE MESQUITA*** **(13)**, ***8***° **(14)**; ***PAMELA NOGUEIRA CAVALCANTE*** **(13)**, ***9***° **(14)**; ***ALEXANDRE ANDERSON DE SOUSA MUNHOZ SOARES*** **(13)**, ***10***° **(14)**.
->***MÉDICO*** **(9)** - ***CIRURGIA GERAL - TRAUMA***  **(10)**: ***LIANA CHAUL SFAIR*** **(13)**, ***1***° **(14)**; ***ANDRE DAVID DA SILVA*** **(13)**, ***2***° **(14)**; ***ITALO MOREIRA DAMASCENO*** **(13)**, ***3***° **(14)**; ***DIOGO BRAGA DE ALBUQUERQUE NUTELS*** **(13)**, ***4***° **(14)**; ***FERNANDO MARINHO MARQUES DA SILVA*** **(13)**, ***5***° **(14)**; ***FILIPE DIOGENIS DA CUNHA PEREIRA*** **(13)**, ***6***° **(14)**; ***EDGAR OLIVEIRA SARMENTO*** **(13)**, ***7***° **(14)**; ***DEBORA SARA DE ALMEIRA CARDOSO*** **(13)**, ***8***° **(14)**; ***MARCELO NEVES CARVALHO*** **(13)**, ***9***° **(14)**. ***Candidato que se declarou portador de deficiência*** **(15)**: ***OCTAVIO MAGALHAES DO VABO NETO*** **(13)**, ***1***° **(14)**.
+![alt text](imagens/popup.PNG "Tela para selecionar nova anotação")
 
-**(1)** Edital Normativo  
-**(2)** Data do Edital Normativo  
-**(3)** Número do DODF do Edital Normativo    
-**(4)** Data do DODF do Edital Normativo
-**(5)** Edital de Resultado Final  
-**(6)** Data do Edital de Resultado Final    
-**(7)** Número do DODF do Edital de Resultado Final  
-**(8)** Data do DODF do Edital de Resultado Final  
-**(9)** Cargo  
-**(10)** Especialidade  
-**(11)** Carreira  
-**(12)** Órgão  
-**(13)** Nome do candidato  
-**(14)** Classificação  
-**(15)** Portador de deficiência/necessidades especiais  
-**(16)** Processo GDF/SEI  
+![alt text](imagens/ato.PNG "Ato anotado com suas entidades")
 
-#### 2.2. Sugestão de como ralizar a anotação de um ato de nomeação de cargo efetivo:
+Quando os atos e as entidade estiverem anotados, é necessário criar as relações, lembrando que a relação é feita entra o ato e suas respectivas entidades, nunca entre atos. Para isso, selecione o texto que contém as entidades a serem relacionadas, assim que a janela pop-up aparecer, selecione as entidades e o ato que fará parte da relação e aperte em "Add to Relation".
 
-1. **Identifique o ato que será anotado.** Por possuir mais entidades a serem anotadas e por muitas delas serem semelhantes, aconselho anotar um ato de nomeação de cargo efetivo de cada vez.
+![alt text](imagens/relacao-types.PNG "Selecionar as entidades e o ato que farão parte da relação")
 
-2. **Localize o processo GDF/SEI.** O posicionamento dele dentro do ato varia bastante, mas sempre estará logo após as palavras 'Processo SEI n°'. 
+![alt text](imagens/relacao-1.PNG "Criar a relação")
 
-3. **Anote da entidade Edital Normativo até a entidade Data do DODF do Edital de Resultado Final.** Elas costumam aparecer uma após a outra, desta forma fica mais fácil de identificar e mais difícil de se confundir em relação as datas e DODF's.  
-  Comece pelo Edital Normativo, depois anote a Data do Edital Normativo, Número do DODF do Edital Normativo, Data do DODF do Edital Normativo, Edital de Resultado Final e por último a Data do Edital de Resultado Final.
+![alt text](imagens/relacao2.PNG "Relação pronta")
 
-4. **Anote as entidades Cargo, Carreira e Orgão.** Elas aparecem uma após a outra, depois das entidades citadas no item anterior.
+Por fim, quando todo o documento estiver pronto, clique em "DONE".
 
-5. **Anote as Especialidades.** Às vezes pode ter mais de uma, elas aparecem antes da lista com os Nomes dos Candidatos, em letras maiúsculas. 
-
-6. **Anote os Nomes dos Candidatos e suas respectivas Classificações.** Os nomes estarão em letras maiúsculas e a classificação estará logo em seguida. 
-
-7. **Confira se há algum candidato portador de deficiência/ necessidades especiais, se tiver anote.** Estará escrito algo como 'Candidato que se declarou portador de deficiência' ou 'Portador de Deficiência'.
-
-8. **Anote o ato de nomeação como um todo.** Anote todas as palavras desde ‘NOMEAR” até a classificação do último candidato.
-
-### Observações Gerais sobre os Atos de Nomeação:
-
-* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
-* Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
-* Tenha muito cuidado para não apagar todoas a anotações de um documento, mesmo tendo função de anotador.
-* Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
-
-## Anotação de atos de retificação
-
-### Passo-a-passo
-
-1) Abra um documento PDF do DODF a ser anotado na área de trabalho do TeamTat;
-2) Procure (CTRL + F), na própria janela do texto do DODF, por palavras-chave relacionadas aos atos de retificação, como *RETIFICAR*, *RETIFICAÇÃO* e *LEIA-SE*;
-3) Ao encontrar um bloco de texto contendo alguma das palavras-chave, verifique se ele apresenta algum dos **quatro** padrões possíveis na próxima seção
-4) **Anote as entidades em um primeiro momento**, isto é, no bloco de texto associado ao ato de retificação, procure pelas entidades na Seção **Entidades** e faça a anotação de cada uma, conforme o *rótulo* disponível no TeamTat.
-5) **Anote o bloco de texto inteiro**, selecione todo o bloco de texto associado ao ato de retificação conforme algum dos padrões dos atos de retificação definidos na seção baiaxo e rotule-os como *retificacao*;
-6) Construa os relacionamentos entre cada rótulos das entidades anotadas com o bloco de texto associado ao ato de retificação.
-
-### Padrão dos Blocos de Textos Relacionados ao Ato
-
-#### Padrão 1
-
-RETIFICAR a [TIPO_DO_DOCUMENTO] de [DATA_DOCUMENTO_ITEM_SEM_EFEITO], publicada no DODF No [NUMERO_DODF], de [DATA_DODF], referente [TIPO_DE_ATO] ao(à) servidor(a): [NOME_SERVIDOR], [CARGO_EFETIVO], matrícula [MATRÍCULA], [CARGO_EFETIVO], Classe [CLASSE], Padrão [PADRAO], do [LOTACAO], matrícula SIAPE no [MATRICULA_SIAPE], para constar onde se lê: [INFORMACAO_ERRADA], leia-se [INFORMACAO_CORRETA], mantendo-se os demais termos do [TIPO_DE_ATO].
-
-### Entidades
-
-- TIPO_DO_DOCUMENTO (não obrigatório): Ordem de Serviço, Prestação de Contas
-- NUMERO_DOCUMENTO_ITEM_SEM_EFEITO (não obrigatório): número do documento onde está o item tornado sem efeito;
-- DATA_DOCUMENTO_ITEM_SEM_EFEITO (obrigatório): data do documento onde está o item tornado sem efeito;
-- DATA_DODF (obrigatório): data do DODF
-- TIPO_DE_ATO (obrigatório): concessão de abono, aposentadoria, substituição, nomeação etc
-- NOME_SERVIDOR (obrigatório): nome do servidor
-- MATRÍCULA (obrigatório):
-- CARGO_EFETIVO (obrigatório):
-- CLASSE (não obrigatório):
-- PADRAO (não obrigatório):
-- MATRICULA_SIAPE (não obrigatório): só se aplica à Polícia Civil, à Polícia Militar e ao Corpo de Bombeiro Militar
-- INFORMACAO_ERRADA (obrigatório): Informação errada
-- INFORMACAO_CORRIGIDA (obrigatório): Informação corrigida
+![alt text](imagens/done.PNG "Documento pronto")
 
