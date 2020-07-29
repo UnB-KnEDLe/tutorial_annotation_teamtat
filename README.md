@@ -46,7 +46,7 @@ Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escol
 
 Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Então, com o mouse, selecione o texto correspondente a esse rótulo. 
 
-![alt text](imagens/rotulo.PNG "Rótulo selecionado")
+![alt text](imagens/rotulo.png "Rótulo selecionado")
 
 ![alt text](imagens/entidade-1.PNG "Texto selecioando e entidade anotada")
 
@@ -60,11 +60,11 @@ Após anotar as entidades do ato, é necessário anotar o ato completo. Para iss
 
 Quando os atos e as entidade estiverem anotados, é necessário criar as relações, lembrando que a relação é feita entra o ato e suas respectivas entidades, nunca entre atos. Para isso, selecione o texto que contém as entidades a serem relacionadas, assim que a janela pop-up aparecer, selecione as entidades e o ato que fará parte da relação e aperte em "Add to Relation".
 
-![alt text](imagens/relacao-types.PNG "Selecionar as entidades e o ato que farão parte da relação")
+![alt text](imagens/relacao-types.png "Selecionar as entidades e o ato que farão parte da relação")
 
 ![alt text](imagens/relacao-1.PNG "Criar a relação")
 
-![alt text](imagens/relacao2.PNG "Relação pronta")
+![alt text](imagens/relacao-2.PNG "Relação pronta")
 
 Por fim, quando todo o documento estiver pronto, clique em "DONE".
 
