@@ -4,23 +4,23 @@ Primeiro é necessário verificar se existem atos de retificação no DODF, para
 
 ## Retificação de Cargo Comissionado e Funções de Confiança
 
-### Tabela de entidade e padrões 
+### Tabela de entidade e padrões
 
 As entidades que deverão ser identificadas são:
- 
-ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
-------- | ------- | ------- | ------- | -------
-(1) | TIPO_DO_DOCUMENTO | Tipo de documento | Sem Padrão | (obrigatório)
-(2) | DATA_DOCUMENTO_ITEM_SEM_EFEITO | Data do documento onde está o item tornado sem efeito (2) | Sem Padrão | (obrigatório)
-(3) | NUMERO_DODF | Número do DODF | Após 'n°' | (não obrigatório)
-(4) | DATA_DODF | Data do DODF | Sem Padrão | (obrigatório)
-(5) | PAGINA_DODF | Página do DODF | Após 'página' | (não obrigatório)
-(6) | TIPO_DE_ATO | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que' | (obrigatório)
-(7) | NOME_SERVIDOR | Nome do Servidor |	Letras maiúsculas | (obrigatório)
-(8) | LOTACAO | Lotação |	Sem Padrão | (não obrigatório)
-(9) | INFORMACAO_ERRADA | Informação Errada |	Após 'ONDE SE LÊ' | (obrigatório)
-(10) | INFORMACAO_CORRIGIDA | Informação Corrigida |	Após 'LEIA-SE' | (obrigatório)
-(11) | TIPO_EDICAO | Tipo de edição |	Sem Padrão | (não obrigatório)
+
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | tipo_documento | Tipo de documento | Sem Padrão
+(2) | data_documento | Data do documento onde está o item tornado sem efeito | Sem Padrão
+(3) | numero_dodf | Número do DODF | Após 'n°'
+(4) | data_dodf | Data do DODF | Sem Padrão
+(5) | pagina_dodf | Página do DODF | Após 'página'
+(6) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que'
+(7) | nome | Nome do Servidor |	Letras maiúsculas
+(8) | lotacao | Lotação |	Sem Padrão
+(9) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
+(10) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
+(11) | tipo_edicao | Tipo de edição |	Sem Padrão
 
 Os atos de retificação possuem os seguintes padrões, conforme o documento de requisitos do TCDF:
 
@@ -63,32 +63,32 @@ RETIFICAR o **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, pub
 ### Tabela de entidades e padrões
 
 As entidades que deverão ser identificadas são:
- 
-ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
-------- | ------- | ------- | ------- | -------
-(1) | TIPO_DO_DOCUMENTO | Tipo de documento | Sem Padrão | (obrigatório)
-(2) | NUMERO_DOCUMENTO_ITEM_SEM_EFEITO | Número do documento onde está o item tornado sem efeito (2) | Sem Padrão | (obrigatório)
-(3) | DATA_DOCUMENTO_ITEM_SEM_EFEITO | Data do documento onde está o item tornado sem efeito (2) | Sem Padrão | (obrigatório)
-(4) | NUMERO_DODF | Número do DODF | Após 'n°' | (não obrigatório)
-(5) | DATA_DODF | Data do DODF | Sem Padrão | (obrigatório)
-(6) | PAGINA_DODF | Página do DODF | Após 'página' | (não obrigatório)
-(7) | TIPO_DE_ATO | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que' | (obrigatório)
-(8) | NOME_SERVIDOR | Nome do Servidor |	Letras maiúsculas | (obrigatório)
-(9) | MATRICULA_SERVIDOR | Matrícula do Servidor |	Após 'matrícula n°' | (não obrigatório)
-(10) | CARGO_SERVIDOR | Cargo Efetivo do Servidor |	Letras maiúsculas | (obrigatório)
-(11) | CLASSE_SERVIDOR | Nome do Servidor |	Após cargo | (não obrigatório)
-(12) | PADRAO_SERVIDOR | Padrãodo Servidor |	Após Classe | (não obrigatório)
-(13) | LOTACAO | Lotação |	Sem Padrão | (não obrigatório)
-(14) | INFORMACAO_ERRADA | Informação Errada |	Após 'ONDE SE LÊ' | (obrigatório)
-(15) | INFORMACAO_CORRIGIDA | Informação Corrigida |	Após 'LEIA-SE' | (obrigatório)
-(16) | TIPO_EDICAO | Tipo de edição |	Sem Padrão | (não obrigatório)
-  
+
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | tipo_documento | Tipo de documento | Sem Padrão
+(2) | numero_documento | Número do documento onde está o item tornado sem efeito (2) | Sem Padrão
+(3) | data_documento | Data do documento onde está o item tornado sem efeito (2) | Sem Padrão
+(4) | numero_dodf | Número do DODF | Após 'n°'
+(5) | data_dodf | Data do DODF | Sem Padrão
+(6) | pagina_dodf | Página do DODF | Após 'página'
+(7) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que'
+(8) | nome | Nome do Servidor |	Letras maiúsculas
+(9) | matricula | Matrícula do Servidor |	Após 'matrícula n°'
+(10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas
+(11) | classe | Nome do Servidor |	Após cargo
+(12) | padrao | Padrão do Servidor |	Após Classe
+(13) | lotacao | Lotação |	Sem Padrão
+(14) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
+(15) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
+(16) | tipo_edicao | Tipo de edição |	Sem Padrão
+
 ### Exemplos de atos de retificação de cargo efetivo
 
 > RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(3)**, publicado no DODF nº **223(4)**, de **25 de novembro de 2019(5)**, pág. **08(6)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(8)**, matrícula nº **1.431.009-0(9)**, **Analista em Políticas Públicas e Gestão Governamental(10)**, desta **Secretaria de Estado de Economia do Distrito Federal(13)**, ONDE SE LÊ: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..."(14)** LEIA-SE: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."(15)**.
 
 > RETIFICAR, na **Ordem de Serviço(1)** de **06 de junho de 1989(3)**, publicada no DODF nº **108(4)** - Suplemento, de **09/06/1989(5)**, pág. **15(6)**, o ato que **averbou(7)** o tempo de serviço militar do Servidor **MANOEL SANTOS DE SOUZA(8)**, matrícula nº **30.218-X(9)**, para fazer constar: ONDE SE LÊ:**"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria..."(14)**. LEIA-SE: **"...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."(15)**.
- 
+
 > RETIFICAR, na **Ordem de Serviço(1)** coletiva nº **98(2)**, de **26/11/2019(3)**, publicada no DODF nº **225(4)**, de **27/11/2019(5)**, o ato que **concedeu(7)** pensão vitalícia a MARIA SOCORRO FERREIRA DE BARROS, cônjuge do ex-servidor **JERÔNIMO JANUÁRIO DE BARROS(8)**, matrícula nº **00.662-X(9)**, **Técnico em Políticas Públicas e Gestão Governamental(10)**, Classe **Única(11)**, Padrão **IX(12)**, do **Quadro de Pessoal do Distrito Federal(13)**, para corrigir a matrícula do ex-servidor, onde se lê: **"matrícula nº 00.662-X"(14)**, leia-se: **"matrícula nº 00.622X"(15)**, ficando ratificados os demais termos da concessão inicial. Processo nº 00413-00005231/2019-21.
 
 ## Sugestão de como realizar a anotação de um ato de retificação:

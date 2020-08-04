@@ -9,23 +9,23 @@ _Refs:_
 1. <a href="https://pt.wikipedia.org/wiki/Aposentadoria">https://pt.wikipedia.org/wiki/Aposentadoria</a>
 2. <a href="https://pt.wikipedia.org/wiki/Aposentadoria_no_Brasil">https://pt.wikipedia.org/wiki/Aposentadoria_no_Brasil</a>
 
-### Tabela de atributos e padrões
+### Tabela de entidades e padrões
 Em geral, os atos de aposentadoria seguem os seguintes padrões.
 
-| Atributos     | Obrigatoriedade | Padrão        |
-| ------------- |:-------------:| --------------- |
-| Tipo da aposentadoria (1)     | Não obrigatório | Após 'CONCEDER' ou 'APOSENTAR' |
-| Nome do Servidor (2)    | Obrigatório | Letras maiúsculas |
-| Matrícula (3) | Obrigatório | Após 'matrícula n°' |
-| Cargo Efetivo (4) | Obrigatório | Sem Padrão |
-| Classe (5) | Não obrigatório | Após cargo |
-| Padrão (6) | Não obrigatório | Após classe |
-| Quadro pessoal permanente ou Suplementar (7) | Obrigatório | Após padrão, começa com 'do Quadro' |
-| Fundamento Legal (8) | Obrigatório | Começa com 'nos termos do' |
-| Órgão (9) | Obrigatório | Sem Padrão |
-| Processo GDF/SEI (10) | Obrigatório | Começa com 'Processo SEI' ou 'Processo' |
-| Vigência (11) | Não obrigatório | Após 'a contar de' |
-| Matricula SIAPE (12) | Não obrigatório | SIAPE |
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | tipo_aposentadoria | Tipo da aposentadoria | Após 'CONCEDER' ou 'APOSENTAR'
+(2) | nome | Nome do Servidor | Obrigatório | Letras maiúsculas
+(3) | matricula | Matrícula | Obrigatório | Após 'matrícula n°'
+(4) | cargo_efetivo | Cargo Efetivo | Obrigatório | Sem Padrão
+(5) | classe | Classe  | Não obrigatório | Após cargo
+(6) | padrao | Padrão | Não obrigatório | Após classe
+(7) | quadro | Quadro pessoal permanente ou Suplementar | Obrigatório | Após padrão, começa com 'do Quadro'
+(8) | fundamento_legal | Fundamento Legal | Obrigatório | Começa com 'nos termos do'
+(9) | orgao | Órgão | Obrigatório | Sem Padrão
+(10)| processo_SEI | Processo GDF/SEI | Obrigatório | Começa com 'Processo SEI' ou 'Processo'
+(11)| vigencia | Vigência | Não obrigatório | Após 'a contar de'
+(12)| matricula_SIAPE | Matricula SIAPE  | Não obrigatório | SIAPE
 
 
 

@@ -8,26 +8,26 @@ _Refs:_
 1. <a href="https://jus.com.br/artigos/35306/comparacoes-e-conceitos">https://jus.com.br/artigos/35306/comparacoes-e-conceitos</a>
 2. <a href="https://jus.com.br/artigos/55352/a-reversao-do-servidor-que-se-aposentou-voluntariamente">https://jus.com.br/artigos/55352/a-reversao-do-servidor-que-se-aposentou-voluntariamente</a>
 
-Para encontrar os atos de Reversão no documento do DODF, basta pressionar CTRL+F e pesquisar por "REVERTER". 
+Para encontrar os atos de Reversão no documento do DODF, basta pressionar CTRL+F e pesquisar por "REVERTER".
 
 
 ### Tabela de entidades e padrões
 
 As entidades que deverão ser identificadas são:
 
- Entidade     | Padrão        
- ------------- | ------------- 
-Nome do Servidor (1) | Letras maiúsculas
-Matrícula (2) | Após 'matrícula n°'
-Cargo Efetivo (3) |	Sem Padrão
-Classe 	(4) |	Após cargo
-Padrão (5) |	Após Classe
-Quadro pessoal permanente ou Suplementar (6) | Começa com 'do Quadro'
-Fundamento Legal (7) | Começa com 'nos termos do' ou 'de acordo com'
-Órgão (8) |	Sem Padrão
-Processo GDF/SEI (9) | Começa com 'Processo SEI'
-Vigência (10) | Após 'a contar de'
-Matricula SIAPE (11) | SIAPE
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | nome | Nome do Servidor | Letras maiúsculas
+(2) | matricula | Matrícula | Após 'matrícula n°'
+(3) | cargo_efetivo | Cargo Efetivo |	Sem Padrão
+(4) | classe | Classe |	Após cargo
+(5) | padrao | Padrão |	Após Classe
+(6) | quadro | Quadro pessoal permanente ou Suplementar | Começa com 'do Quadro'
+(7) | fundamento_legal | Fundamento Legal | Começa com 'nos termos do' ou 'de acordo com'
+(8) | orgao | Órgão |	Sem Padrão
+(9) | processo_SEI | Processo GDF/SEI | Começa com 'Processo SEI'
+(10)| vigencia | Vigência | Após 'a contar de'
+(11)| matriucla_SIAPE | Matricula SIAPE | SIAPE
 
 
 

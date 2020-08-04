@@ -6,31 +6,31 @@
 
 A cessão consiste no “afastamento temporário de servidor público, titular de cargo efetivo ou emprego público, que lhe possibilita exercer atividades em outro órgão ou entidade, da mesma esfera de governo ou de esfera distinta, para ocupar cargo em comissão, função de confiança ou ainda para atender às situações estabelecidas em lei, com o propósito de cooperação entre as Administrações” (PAZ, Caroline Lima; PICININ, Cláudia Carvalho. Cessão de servidor público: uma análise com enfoque nas decisões proferidas pelo TCE/MG e pelo TJMG. Revista TCE/MG, jan-mar 2014).
 
-_Refs:_ 
+_Refs:_
 1. <a href="https://jus.com.br/artigos/67519/a-irregularidade-na-cessao-de-servidor-publico-por-prazo-indeterminado">https://jus.com.br/artigos/67519/a-irregularidade-na-cessao-de-servidor-publico-por-prazo-indeterminado</a>
 2. <a href="https://revista1.tce.mg.gov.br/Content/Upload/Materia/2521.pdf">https://revista1.tce.mg.gov.br/Content/Upload/Materia/2521.pdf</a>
 
 
-### Tabela de atributos e padrões
+### Tabela de entidades e padrões
 Em geral, os atos de abono de permanência seguem os seguintes padrões.
 
-| Atributos     | Obrigatoriedade | Padrão        |
-| ------------- |:-------------:| --------------- |
-| Nome do Servidor Substituto (1)    | Obrigatório | Letras maiúsculas |
-| Matrícula (2) | Obrigatório | Após 'matrícula n°' |
-| Cargo Efetivo (3) | Obrigatório | Sem Padrão |
-| Classe (4) | Não obrigatório | Após cargo |
-| Padrão (5) | Não obrigatório | Após classe |
-| Órgão Cedente (6) | Não obrigatório | Sem padrão |
-| Órgão Cessionário (7) | Obrigatório | Sem padrão |
-| Ônus (8) | Obrigatório | Após 'com ônus para' |
-| Fundamento Legal (9) | Não obrigatório | Começa com 'nos termos do' ou 'com base' |
-| Processo GDF/SEI (10) | Obrigatório | Começa com 'Processo SEI' ou 'Processo' |
-| Vigência (11) | Não obrigatório | Após 'a contar de' ou 'a partir de' ou 'no período de' |
-| Matricula SIAPE (12) | Não obrigatório | Após SIAPE |
-| Cargo que exercerá no órgão cessionário (13) | Não obrigatório | Sem padrão |
-| Símbolo do cargo que exercerá no órgão cessionário (14) | Não obrigatório | Sem padrão |
-| Hierarquia da Lotação no órgão cessionário (15) | Não obrigatório | Sem padrão |
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | nome_substituto | Nome do Servidor Substituto | Letras maiúsculas
+(2) | matricula | Matrícula | Após 'matrícula n°'
+(3) | cargo_efetivo | Cargo Efetivo | Sem Padrão
+(4) | classe | Classe | Após cargo
+(5) | padrao | Padrão | Após classe
+(6) | orgao_cedente | Órgão Cedente | Sem padrão
+(7) | orgao_cessionario | Órgão Cessionário | Sem padrão
+(8) | onus | Ônus | Após 'com ônus para'
+(9) | fundamento_legal | Fundamento Legal | Começa com 'nos termos do' ou 'com base'
+(10)| processo_SEI | Processo GDF/SEI | Começa com 'Processo SEI' ou 'Processo'
+(11)| vigencia | Vigência | Após 'a contar de' ou 'a partir de' ou 'no período de'
+(12)| matricula_SIAPE | Matricula SIAPE | Após SIAPE
+(13)| cargo_orgao_cessionario | Cargo que exercerá no órgão cessionário | Sem padrão
+(14)| simbolo | Símbolo do cargo que exercerá no órgão cessionário | Sem padrão
+(14)| hierarquia_lotacao | Hierarquia da Lotação no órgão cessionário | Sem padrão
 
 #### Exemplos de atos de cessão:
 Seguem exemplos de atos de cessão. O texto do ato em si estará sublinhado e seus respectivos atributos enumerados conforme índice da tabela acima. Note que nem todos os exemplos contemplam todos os atributos. **A regra aqui é simples: marque todos os atributos, obrigatórios ou não, que estiverem no ato.**

@@ -15,19 +15,19 @@ Os atos de exoneração começam com a palavra "EXONERAR" e vão até o ponto fi
 
 As entidades que deverão ser identificadas são:
 
- Entidade     | Padrão        
- ------------- | ------------- 
-Nome do Servidor (1) | Letras maiúsculas
-Matrícula (2) |	Após 'matrícula n°'
-Símbolo (3) |	Após 'Símbolo'
-Cargo em Comissão (4) |	Após Simbolo
-Hierarquia da Lotação (5) |	Após Cargo em Comissão
-Órgão (6) |	Após Hierarquia da Lotação
-Vigência (7) |	Após 'a contar de'
-Se a pedido ou não (8) |	'a pedido' após 'EXONERAR'
-Cargo Efetivo (9) |	Sem Padrão
-Matrícula SIAPE (10) |	Após 'SIAPE'
-Motivo (11) |	'em virtude ou por estar sendo'
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1)| nome | Nome do Servidor | Letras maiúsculas
+(2) | matricula | Matrícula |	Após 'matrícula n°'
+(3) | simbolo | Símbolo |	Após 'Símbolo'
+(4) | cargo_comissionado | Cargo em Comissão |	Após Simbolo
+(5) | hierarqui_lotacao | Hierarquia da Lotação |	Após Cargo em Comissão
+(6) | orgao | Órgão |	Após Hierarquia da Lotação
+(7) | vigencia | Vigência |	Após 'a contar de'
+(8) | a_pedido_ou_nao | Se a pedido ou não | 'a pedido' após 'EXONERAR'
+(9) | cargo_efetivo | Cargo Efetivo |	Sem Padrão
+(10)| matricula_SIAPE | Matrícula SIAPE |	Após 'SIAPE'
+(11)| motivo | Motivo |	'em virtude ou por estar sendo'
 
 ### Exemplos de atos de Exoneração
 
@@ -58,21 +58,21 @@ Os ato de exoneração de cargos efetivos também começam na palavra "EXONERAR"
 
 As entidades que deverão ser identificadas são:
 
- Entidade     | Padrão        
- ------------- | ------------- 
-Nome do Servidor (1) | Letras maiúsculas
-Matrícula (2) |	Após 'matrícula n°'
-Cargo Efetivo (3) |	Sem Padrão
-Classe (4) | Após cargo
-Padrão (5) | Após Classe
-Carreira (6) | Após 'da Carreira de'
-Quadro pessoal permanente ou Suplementar (7) |	Após padrão, começa com 'do Quadro'
-Órgão (8) | Após Quadro pessoal permanente ou Suplementar
-Processo GDF/SEI (9) | Após 'conforme Processo:'
-Vigência (10) |	Após 'a contar de'
-Matricula SIAPE (11) | SIAPE
-Motivo (12) | Sem padrão
-Fundamento Legal (13) |	Começa com 'nos termos do'
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | nome | Nome do Servidor | Letras maiúsculas
+(2) | matricula | Matrícula |	Após 'matrícula n°'
+(3) | cargo_efetivo | Cargo Efetivo |	Sem Padrão
+(4) | classe | Classe | Após cargo
+(5) | padrao | Padrão | Após Classe
+(6) | carreira | Carreira | Após 'da Carreira de'
+(7) | quadro | Quadro pessoal permanente ou Suplementar |	Após padrão, começa com 'do Quadro'
+(8) | orgao | Órgão | Após Quadro pessoal permanente ou Suplementar
+(9) processo_SEI | Processo GDF/SEI | Após 'conforme Processo:'
+(10)| vigencia | Vigência |	Após 'a contar de'
+(11)| matricula_SIAPE | Matricula SIAPE | SIAPE
+(12)| motivo | Motivo | Sem padrão
+(13)| fundamento_legaĺ | Fundamento Legal |	Começa com 'nos termos do'
 
 ### Exemplos de atos de Exoneração de Cargo Efetivo
 

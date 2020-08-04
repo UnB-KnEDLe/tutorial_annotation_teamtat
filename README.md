@@ -7,28 +7,27 @@ A ferramenta usada para realizar as anotações será o [TeamTat](https://www.te
 
 A anotação dos documentos do DODF será feita a nível de atos de entidades. Os atos as serem anotados estão apresentados a seguir e as respectivas entidades estão nos tutoriais individuais dos atos.
 
-*   [Exoneração](ato_exoneracao/exoneracao.md)
-*   [Nomeação](ato_nomeacao/nomeacao.md)
-*   [Ato tornado sem efeitos](ato_tornado_sem_efeito/ato_tornado_sem_efeito.md)
-*   [Retificação](ato_retificacao/retificacao.md)
-*   [Aposentadoria](ato_aposentadoria/aposentadoria.md)
-*   [Reversão](ato_reversao/reversao.md)
-*   [Abono de permanência](ato_abono_permanencia/abono_permanencia.md)
-*   [Retificação](ato_retificacao)
-*   [Substituição de Funções](ato_substituicao)
-*   [Cessão](ato_cessoes/cessoes.md)
-*   [Reposicionamento de Lista de Classificação](ato_reposiscionametno/reposicionamento)
+*   [Exoneração](ato_exoneracao/README.md)
+*   [Nomeação](ato_nomeacao/README.md)
+*   [Ato tornado sem efeitos](ato_tornado_sem_efeito/README.md)
+*   [Retificação](ato_retificacao/README.md)
+*   [Aposentadoria](ato_aposentadoria/README.md)
+*   [Reversão](ato_reversao/README.md)
+*   [Abono de permanência](ato_abono_permanencia/README.md)
+*   [Retificação](ato_retificacao/README.md)
+*   [Substituição de Funções](ato_substituicao/README.md)
+*   [Cessão](ato_cessoes/README.md)
 
 
 Vamos começar!
 
-Primeiramente, é fornecida uma URL única para o anotador. Com ela, é possível acessar os projetos e os documentos a serem anotados, portanto, é importante salvá-la em um lugar em que possa ser acessada posteriormente. 
+Primeiramente, é fornecida uma URL única para o anotador. Com ela, é possível acessar os projetos e os documentos a serem anotados, portanto, é importante salvá-la em um lugar em que possa ser acessada posteriormente.
 
 Ao acessar a URL, o anotador é direcionado para a página de perfil de usuário do TeamTat, em que é possível modificar seu nome de usuário e enviar a URL de acesso por e-mail.
 
 ![alt text](imagens/profile.PNG "Perfil de usuário")
 
-Para acessar os documentos a serem anotados, basta clicar em "Projects" e, em seguida, no projeto referente ao documento desejado. 
+Para acessar os documentos a serem anotados, basta clicar em "Projects" e, em seguida, no projeto referente ao documento desejado.
 
 ![alt text](imagens/project.PNG "Projetos")
 
@@ -42,9 +41,9 @@ Para encontrar os atos a serem anotdados no documento, pesquise, pressionando CT
 
 ![alt text](imagens/ctrlF.PNG "Busca Global")
 
-Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escolhido no documento, 20 ou menos, é recomendado anotar uma entidade por vez, ou seja, anote todos os nomes de servidores do documento,  todas as matrículas do documento e assim por diante. Caso haja muitos atos, é recomentado anotar as entidades por parágrafo. 
+Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escolhido no documento, 20 ou menos, é recomendado anotar uma entidade por vez, ou seja, anote todos os nomes de servidores do documento,  todas as matrículas do documento e assim por diante. Caso haja muitos atos, é recomentado anotar as entidades por parágrafo.
 
-Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Então, com o mouse, selecione o texto correspondente a esse rótulo. 
+Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Então, com o mouse, selecione o texto correspondente a esse rótulo.
 
 ![alt text](imagens/rotulo.png "Rótulo selecionado")
 
@@ -52,7 +51,7 @@ Para fazer a anotação em si, escolha qual a entidade deve ser anotada e seleci
 
 O texto selecionado ficará grifado com a cor correspondente ao rótulo escolhido.
 
-Após anotar as entidades do ato, é necessário anotar o ato completo. Para isso, escolha o rótulo do ato na aba esquerda e selecione o texto correspondente. Uma tela pop-up irá aparecer, pois já existem anotações no texto selecionado. Nessa tela, escolha a opção "Create New Annotation". 
+Após anotar as entidades do ato, é necessário anotar o ato completo. Para isso, escolha o rótulo do ato na aba esquerda e selecione o texto correspondente. Uma tela pop-up irá aparecer, pois já existem anotações no texto selecionado. Nessa tela, escolha a opção "Create New Annotation".
 
 ![alt text](imagens/popup.PNG "Tela para selecionar nova anotação")
 
@@ -69,4 +68,3 @@ Quando os atos e as entidade estiverem anotados, é necessário criar as relaç�
 Por fim, quando todo o documento estiver pronto, clique em "DONE".
 
 ![alt text](imagens/done.PNG "Documento pronto")
-

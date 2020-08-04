@@ -9,30 +9,30 @@ DESIGNAR o **[NOME_SERVIDOR_SUBSTITUTO]**, matrícula nº **[MATRICULA_SERVIDOR_
 ### Tabela de entidades e padrões
 
 As entidades que deverão ser identificadas são:
- 
-ID | Label | Entidade (descrição)  | Padrão  | Obrigatoriedade
-------- | ------- | ------- | ------- | -------
-(1) | NOME_SERVIDOR_SUBSTITUTO | Nome do Servidor | Letras maiúsculas | (obrigatório)
-(2) | MATRICULA_SERVIDOR_SUBSTITUTO | Matrícula do Servidor Substituto | Letras maiúsculas aṕos 'DESIGNAR' | (obrigatório)
-(3) | NOME_SERVIDOR_SUBSTITUIDO | Nome do Servidor a ser Substituido | Após 'para substituir' | (obrigatório)
-(4) | MATRICULA_SERVIDOR_SUBSTITUIDO | Matrícula do Servidor a ser Substituido | Após 'matrícula n°' | (não obrigatório)
-(5) | CARGO_SERVIDOR_SUBSTITUTO | Cargo efetivo ou comissionado do servidor substituto | Sem Padrão | (não obrigatório)
-(6) | SIMBOLO_CARGO_SUBSTITUTO | Símbolo do cargo do servidor substituto | Após 'Símbolo' | (não obrigatório)
-(7) | CARGO_COMISSIONADO_OBJETO | Cargo comissionado objeto da substituição |	Sem padrão | (não obrigatório)
-(8) | SIMBOLO_CARGO_OBJETO | Símbolo do cargo comissionado objeto da substituição |	Após 'Símbolo' | (não obrigatório)
-(9) | HIERARQUIA_LOTACAO | Hierarquia da Lotação|	Sem Padrão | (não obrigatório)
-(10) | ORGAO | Órgão |	Sem Padrão | (obrigatório)
-(11) | DATA_INICIAL | Data Inicial da Vigência |	Após 'no período de' | (não obrigatório)
-(12) | DATA_FINAL | Data Final de Vigência |	Após Data Inicial da Vigência| (não obrigatório)
-(13) | MATRICULA_SIAPE | Matrícula SIAPE |	Após 'SIAPE' | (não obrigatório)
-(14) | MOTIVO | Motivo da substituição |	'em virtude ou a pedido' | (não obrigatório)
-  
+
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | nome_substituto | Nome do Servidor | Letras maiúsculas
+(2) | matricula_substituto | Matrícula do Servidor Substituto | Letras maiúsculas aṕos 'DESIGNAR'
+(3) | nome_substituido | Nome do Servidor a ser Substituido | Após 'para substituir'
+(4) | matricula_substituido | Matrícula do Servidor a ser Substituido | Após 'matrícula n°'
+(5) | cargo_substituto | Cargo efetivo ou comissionado do servidor substituto | Sem Padrão
+(6) | simbolo_substituto | Símbolo do cargo do servidor substituto | Após 'Símbolo'
+(7) | cargo_objeto_substituicao | Cargo comissionado objeto da substituição |	Sem padrão
+(8) | simbolo_objeto_substituicao | Símbolo do cargo comissionado objeto da substituição |	Após 'Símbolo'
+(9) | hierarquia_lotacao | Hierarquia da Lotação|	Sem Padrão
+(10) | orgao | Órgão |	Sem Padrão
+(11) | data_inicial | Data Inicial da Vigência |	Após 'no período de'
+(12) | data_final | Data Final de Vigência |	Após Data Inicial da Vigência
+(13) | matricula_SIAPE | Matrícula SIAPE |	Após 'SIAPE'
+(14) | motivo | Motivo da substituição |	'em virtude ou a pedido'
+
 ### Exemplos de atos de substituição de função
 
 > Art. 1º Designar **ANA PAULA VEIGA TRIERS(1)**, matrícula **1402016-5(2)**, como **executora substituta do Convênio nº 008/2019 - NCC/CODAG/FHB(5)**, em substituição a **Ysis Martins Aquino(3)**, matrícula: **1681885-7($)**, objeto do processo nº 00063-00002158/2019-34. Art. 2º Designar ANA PAULA VEIGA TRIERS, matrícula 1402016-5, como executora principal do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Ysis Martins Aquino, matrícula: 1681885-7, e Ana Louise Ferreira de Araújo, matrícula 1694463-1, como executora substituta do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Madellon Melo de Assis, matrícula: 1681964-0, objeto do processo nº 00063-00000127/2019-49. Art. 3º Esta Instrução entra em vigor na data de sua publicação. BARBARA DE JESUS SIMÕES
 
 > DESIGNAR LUCILENE RODRIGUES DE OLIVEIRA DO NASCIMENTO, matrícula nº 1.690.884-8, Assessor Técnico, do Gabinete, Símbolo DFA-08, para substituir, sem acumular vencimentos e sem prejuízos de suas atribuições, a servidora JAMEL REIS AL-HAKIM SALGADO, matrícula nº 1.690.175-4, Chefe, do Núcleo de Atendimento, Protocolo e Arquivo, Símbolo DFG-12, da Administração Regional de Planaltina, da Secretaria de Estado de Governo do Distrito Federal, no período de 03 de fevereiro de 2020 a 12 de fevereiro de 2020, por motivo de férias regulamentares da titular. GILSON AMORIM SOBRINHO
- 
+
 
 ### Sugestão de como realizar a anotação de um ato de substituição de funções:
 

@@ -6,28 +6,28 @@
 
 Abono de permanência é um valor reembolsado ao servidor público que já completou as exigências para aposentadoria voluntária mas optou por permanecer em atividade até que complete as exigências da aposentadoria compulsória. Foi instituído primeiramente pela <a href="http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc41.htm">Emenda Constitucional nº 41, de 16 de dezembro de 2003</a>, que teve sua redação alterada após a reforma da previdência, com o novo texto vigente constante na <a href="http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm">Emenda Constitucional nº 103 de 2019</a>.
 
-_Refs:_ 
+_Refs:_
 1. <a href="https://pt.wikipedia.org/wiki/Abono_de_perman%C3%AAncia">https://pt.wikipedia.org/wiki/Abono_de_perman%C3%AAncia</a>
 2. <a href="https://jus.com.br/artigos/82775/abono-de-permanencia-o-que-mudou-com-a-reforma-da-previdencia">https://jus.com.br/artigos/82775/abono-de-permanencia-o-que-mudou-com-a-reforma-da-previdencia</a>
 
 
-### Tabela de atributos e padrões
+### Tabela de entidades e padrões
 Em geral, os atos de abono de permanência seguem os seguintes padrões.
 
-| Atributos     | Obrigatoriedade | Padrão        |
-| ------------- |:-------------:| --------------- |
-| Nome do Servidor (1)    | Obrigatório | Letras maiúsculas |
-| Matrícula (2) | Obrigatório | Após 'matrícula n°' |
-| Cargo Efetivo (3) | Obrigatório | Sem Padrão |
-| Classe (4) | Não obrigatório | Após cargo |
-| Padrão (5) | Não obrigatório | Após classe |
-| Quadro pessoal permanente ou Suplementar (6) | Obrigatório | Após padrão, começa com 'do Quadro' |
-| Fundamento Legal do abono de permanência (7) | Obrigatório | Após 'com fundamento no' ou 'com base no' |
-| Fundamento Legal da aposentadoria (8) | Não obrigatório | Começa com 'nos termos do' |
-| Órgão (9) | Não obrigatório | Sem Padrão |
-| Processo GDF/SEI (10) | Obrigatório | Começa com 'Processo SEI' ou 'Processo' |
-| Vigência (11) | Não obrigatório | Após 'a contar de' ou 'a partir de' ou 'no período de' |
-| Matricula SIAPE (12) | Não obrigatório | SIAPE |
+ID | Rótulo | Entidade (descrição)  | Padrão  
+------- | ------- | ------- | -------
+(1) | nome | Nome do Servidor | Letras maiúsculas
+(2) | matricula| Matrícula | Após 'matrícula n°'
+(3) | cargo_efetivo | Cargo Efetivo | Sem Padrão
+(4) | classe | Classe | Após cargo
+(5) | padrao | Padrão | Após classe
+(6) | quadro | Quadro pessoal permanente ou Suplementar | Após padrão, começa com 'do Quadro'
+(7) | fundamento_legal_abono_permanencia | Fundamento Legal do abono de permanência | Após 'com fundamento no' ou 'com base no'
+(8) | Fundamento_legal_aposentadoria | Fundamento Legal da aposentadoria | Começa com 'nos termos do'
+(9) | orgao | Órgão | Sem Padrão
+(10)| processo_SEI | Processo GDF/SEI | Começa com 'Processo SEI' ou 'Processo'
+(11)| vigencia | Vigência | Após 'a contar de' ou 'a partir de' ou 'no período de'
+(12)| matricula_SIAPE | Matricula SIAPE | SIAPE 
 
 ### Exemplos de atos de abono de permanência:
 
