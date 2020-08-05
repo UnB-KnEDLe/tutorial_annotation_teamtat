@@ -23,7 +23,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (5) | padrao | Padrão | Após classe
 (6) | quadro | Quadro pessoal permanente ou Suplementar | Após padrão, começa com 'do Quadro'
 (7) | fundamento_legal_abono_permanencia | Fundamento Legal do abono de permanência | Após 'com fundamento no' ou 'com base no'
-(8) | Fundamento_legal_aposentadoria | Fundamento Legal da aposentadoria | Começa com 'nos termos do'
+(8) | fundamento_legal_aposentadoria | Fundamento Legal da aposentadoria | Começa com 'nos termos do'
 (9) | orgao | Órgão | Sem Padrão
 (10)| processo_SEI | Processo GDF/SEI | Começa com 'Processo SEI' ou 'Processo'
 (11)| vigencia | Vigência | Após 'a contar de' ou 'a partir de' ou 'no período de'
