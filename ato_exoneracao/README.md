@@ -21,7 +21,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (2) | matricula | Matrícula |	Após 'matrícula n°'
 (3) | simbolo | Símbolo |	Após 'Símbolo'
 (4) | cargo_comissionado | Cargo em Comissão |	Após Simbolo
-(5) | hierarqui_lotacao | Hierarquia da Lotação |	Após Cargo em Comissão
+(5) | hierarquia_lotacao | Hierarquia da Lotação |	Após Cargo em Comissão
 (6) | orgao | Órgão |	Após Hierarquia da Lotação
 (7) | vigencia | Vigência |	Após 'a contar de'
 (8) | a_pedido_ou_nao | Se a pedido ou não | 'a pedido' após 'EXONERAR'
