@@ -53,7 +53,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 > NOMEAR o __*Agente de Polícia*__ **(2)** __*LEONARDO PENA VALADARES*__ **(1)**, matrícula __*78.824-4*__ **(3)**, SIAPE __*1545282*__ **(4)**, para exercer o Cargo em Comissão, Símbolo __*DFG-08*__ **(5)**, de __*Chefe de Plantão*__ **(6)**, da ***Divisão de Perícias Externas, do Instituto de Criminalística, do Departamento de Polícia Técnica*** **(7)**, da ***Polícia Civil do Distrito Federal*** **(8)**.
 
 
-### Sugestão de como ralizar a anotação de um ato de nomeação de cargo comissionado:
+### Sugestão de como realizar a anotação de um ato de nomeação de cargo comissionado:
 
 1. **Selecione de onde até onde você irá anotar.** Aconselho anotar de parágrafo em parágrafo.
 
