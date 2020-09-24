@@ -43,7 +43,9 @@ Para encontrar os atos a serem anotdados no documento, pesquise, pressionando CT
 
 Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escolhido no documento, 20 ou menos, é recomendado anotar uma entidade por vez, ou seja, anote todos os nomes de servidores do documento,  todas as matrículas do documento e assim por diante. Caso haja muitos atos, é recomentado anotar as entidades por parágrafo.
 
-Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Então, com o mouse, selecione o texto correspondente a esse rótulo.
+Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Para selecionar a entidade, aperte a tecla com o número correspondente da entidade, 0 a 9. Caso a entidade não esteja nessa faixa, aperte "CTRL" para mudar a faixa de valores. A faixa escolhida será apresentada em negrito.
+
+Então, com o mouse, selecione o texto correspondente a esse rótulo.
 
 ![alt text](imagens/rotulo.png "Rótulo selecionado")
 
@@ -51,19 +53,27 @@ Para fazer a anotação em si, escolha qual a entidade deve ser anotada e seleci
 
 O texto selecionado ficará grifado com a cor correspondente ao rótulo escolhido.
 
+Outra forma de anotar as entidades é através de atalhos do teclado. Selecione o parágrafo que contém a entidade e, para percorrer as palavras, aperte "D" para ir uma palavra para frente, "A" para ir uma palavra para trás, "S" para ir algumas palavras para frente e "W" para ir algumas palavras para trás. Para ir um caractere para frente ou para trás, aperte "" e "Q", respectivamente. Para selecioanr um conjunto de palavras, aperte "SHIFT" e os caracteres listados anteriormente.
+
+Caso tenha feito uma anotação incorreta e queira apagá-la, selecione, através dos atalhos de teclado, a anotação e, em seguida, aperte "R".
+
+Esses atalhos não são fixos e podem ser alterados na aba "Shortcuts".
+
 Após anotar as entidades do ato, é necessário anotar o ato completo. Para isso, escolha o rótulo do ato na aba esquerda e selecione o texto correspondente. Uma tela pop-up irá aparecer, pois já existem anotações no texto selecionado. Nessa tela, escolha a opção "Create New Annotation".
 
 ![alt text](imagens/popup.PNG "Tela para selecionar nova anotação")
 
 ![alt text](imagens/ato.PNG "Ato anotado com suas entidades")
 
-Quando os atos e as entidade estiverem anotados, é necessário criar as relações, lembrando que a relação é feita entra o ato e suas respectivas entidades, nunca entre atos. Para isso, selecione o texto que contém as entidades a serem relacionadas, assim que a janela pop-up aparecer, selecione as entidades e o ato que fará parte da relação e aperte em "Add to Relation".
+Quando os atos e as entidade estiverem anotados, é necessário criar as relações, lembrando que a relação é feita entre o ato e suas respectivas entidades, nunca entre atos. Para isso, selecione o texto que contém as entidades a serem relacionadas, assim que a janela pop-up aparecer, selecione as entidades e o ato que fará parte da relação e aperte em "Add to Relation".
 
 ![alt text](imagens/relacao-types.png "Selecionar as entidades e o ato que farão parte da relação")
 
 ![alt text](imagens/relacao-1.PNG "Criar a relação")
 
 ![alt text](imagens/relacao-2.PNG "Relação pronta")
+
+Da mesma forma que para anotação de entidades, existem atalhos de teclado para criar relações. Selecione o trecho de texto que contém as anotações e aperte em "" pra criar a relação.
 
 Por fim, quando todo o documento estiver pronto, clique em "DONE".
 
