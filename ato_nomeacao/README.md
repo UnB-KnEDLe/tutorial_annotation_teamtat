@@ -20,7 +20,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 ------- | ------- | ------- | -------
 (1) | nome | Nome do Servidor | Letras maiúsculas    
 (2) | cargo_efetivo | Cargo Efetivo | Sem padrão
-(3) | mtricula | Matrícula | Após 'matrícula n°'
+(3) | matricula | Matrícula | Após 'matrícula n°'
 (4) | matricula_SIAPE | Matrícula SIAPE | Após 'SIAPE'
 (5) | simbolo | Símbolo | Após 'Símbolo'
 (6) | cargo_comissionado | Cargo em Comissão | Após o atributo Símbolo
