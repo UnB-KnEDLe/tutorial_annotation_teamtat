@@ -45,6 +45,8 @@ Após isso, as entidades serão anotadas. Se existirem poucos atos do tipo escol
 
 Para fazer a anotação em si, escolha qual a entidade deve ser anotada e selecione seu rótulo na aba esquerda da tela. Para selecionar a entidade, aperte a tecla com o número correspondente da entidade, 0 a 9. Caso a entidade não esteja nessa faixa, aperte "CTRL" para mudar a faixa de valores. A faixa escolhida será apresentada em negrito.
 
+![alt text](imagens/entidades-tec.png "Entidades")
+
 Então, com o mouse, selecione o texto correspondente a esse rótulo.
 
 ![alt text](imagens/rotulo.png "Rótulo selecionado")
@@ -58,6 +60,10 @@ Outra forma de anotar as entidades é através de atalhos do teclado. Selecione 
 Caso tenha feito uma anotação incorreta e queira apagá-la, selecione, através dos atalhos de teclado, a anotação e, em seguida, aperte "R".
 
 Esses atalhos não são fixos e podem ser alterados na aba "Shortcuts".
+
+![alt text](imagens/shortcuts-aba.png "Aba de atalhos")
+
+![alt text](imagens/shortcuts.png "Atalhos")
 
 Após anotar as entidades do ato, é necessário anotar o ato completo. Para isso, escolha o rótulo do ato na aba esquerda e selecione o texto correspondente. Uma tela pop-up irá aparecer, pois já existem anotações no texto selecionado. Nessa tela, escolha a opção "Create New Annotation".
 
