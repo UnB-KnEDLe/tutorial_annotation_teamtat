@@ -72,7 +72,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (10)| vigencia | Vigência |	Após 'a contar de'
 (11)| matricula_SIAPE | Matricula SIAPE | SIAPE
 (12)| motivo | Motivo | Sem padrão
-(13)| fundamento_legaĺ | Fundamento Legal |	Começa com 'nos termos do'
+(13)| fundamento_legal | Fundamento Legal |	Começa com 'nos termos do'
 
 ### Exemplos de atos de Exoneração de Cargo Efetivo
 
