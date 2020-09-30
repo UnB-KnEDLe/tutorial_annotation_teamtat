@@ -68,7 +68,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (6) | carreira | Carreira | Após 'da Carreira de'
 (7) | quadro | Quadro pessoal permanente ou Suplementar |	Após padrão, começa com 'do Quadro'
 (8) | orgao | Órgão | Após Quadro pessoal permanente ou Suplementar
-(9) processo_SEI | Processo GDF/SEI | Após 'conforme Processo:'
+(9) | processo_SEI | Processo GDF/SEI | Após 'conforme Processo:'
 (10)| vigencia | Vigência |	Após 'a contar de'
 (11)| matricula_SIAPE | Matricula SIAPE | SIAPE
 (12)| motivo | Motivo | Sem padrão
