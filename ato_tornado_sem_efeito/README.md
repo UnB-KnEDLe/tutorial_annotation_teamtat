@@ -1,5 +1,7 @@
 # Ato Tornado sem Efeito
 
+Link para o vídeo sobre como anotar este tipo de ato: <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
+
 O ato de tornar sem efeito consiste na revogação, ou anulamento, de um ato administrativo.
 
 _Refs:_
