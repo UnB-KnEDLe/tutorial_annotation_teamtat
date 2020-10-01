@@ -4,7 +4,8 @@ Primeiro é necessário verificar se existem atos de substituiço no DODF, basta
 
 ### Padrão
 
-DESIGNAR o **[nome_substituto](1)**, matrícula nº **[matricula_substituto](2)**, **[cargo_substituto](5)**, **[simbolo_substituto](6)**, para substituir **[nome_substituido](3)**, matrícula nº **[matricula_substituido](4)**, **[cargo_objeto_substituicao](7)**, Símbolo **[simbolo_objeto_substituicao](8)**, do **[hierarquia_lotacao](9)**, cargo **[orgao](10)**, no período de **[data_inicial](11)** até **[data_final](12)**, por motivo de **[motivo](14)**.
+DESIGNAR/Designar o **[nome_substituto](1)**, matrícula nº **[matricula_substituto](2)**, **[cargo_substituto](5)**, **[simbolo_substituto](6)**, para substituir **[nome_substituido](3)**, matrícula nº **[matricula_substituido](4)**, **[cargo_objeto_substituicao](7)**, Símbolo **[simbolo_objeto_substituicao](8)**, do **[hierarquia_lotacao](9)**, cargo **[orgao](10)**, no período de **[data_inicial](11)** até **[data_final](12)**, por motivo de **[motivo](14)**.
+
 
 ### Tabela de entidades e padrões
 
@@ -12,7 +13,7 @@ As entidades que deverão ser identificadas são:
 
 ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório? 
 ------- | ------- | ------- | ------- | -------
-(1) | nome_substituto | Nome do Servidor | Letras maiúsculas | Sim
+(1) | nome_substituto | Nome do Servidor | n.a. | Sim
 (2) | matricula_substituto | Matrícula do Servidor Substituto | Letras maiúsculas aṕos 'DESIGNAR' | Sim
 (3) | nome_substituido | Nome do Servidor a ser Substituido | Após 'para substituir' | Não
 (4) | matricula_substituido | Matrícula do Servidor a ser Substituido | Após 'matrícula n°' | Sim
