@@ -18,7 +18,7 @@ As entidades que deverão ser identificadas são:
 ID | Rótulo | Entidade (descrição)  | Padrão  
 ------- | ------- | ------- | -------
 (1) | tipo_documento | Tipo de Documento | Após 'TORNAR SEM EFEITO'
-(2) | data)documento | Data do documento onde está o item tornado sem efeito | Após Tipo de Documento  
+(2) | data_documento | Data do documento onde está o item tornado sem efeito | Após Tipo de Documento  
 (3) | tipo_edicao | Tipo de edição do DODF | Sem padrão, mas geralmente entre Data do Documento e Número do DODF
 (4) | numero_dodf | Número do DODF |  Após 'n°'
 (5) | data_dodf | Data do DODF |  Após Número do DODF
@@ -85,7 +85,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (7) | nome | Nome do Servidor |  Letras maiúsculas, após 'concedeu aposentadoria a'
 (8) | matricula | Matrícula  |  Após 'matrícula'
 (9) | matricula_SIAPE | Matricula SIAPE | Após 'SIAPE'
-(10)| cargp_efetivo | Cargo Efetivo |  Sem padrão, às vezes após 'Cargo de'
+(10)| cargo_efetivo | Cargo Efetivo |  Sem padrão, às vezes após 'Cargo de'
 (11)| classe | Classe | Após 'Classe'
 (12)| padrao  | Padrão | Após 'Padrão'
 (13)| quadro | Quadro de Pessoal permanente ou Suplementar | Após 'Quadro de Pessoal'   
