@@ -2,43 +2,47 @@
 
 Primeiro é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **cargo efetivo**, pois isso influencia nos tipos de entidades que serão anotadas.
 
+## Link para vídeo no youtube
+
+http:
+
 ## Retificação de Cargo Comissionado e Funções de Confiança
 
 ### Tabela de entidade e padrões
 
 As entidades que deverão ser identificadas são:
 
-ID | Rótulo | Entidade (descrição)  | Padrão  
-------- | ------- | ------- | -------
-(1) | tipo_documento | Tipo de documento | Sem Padrão
-(2) | data_documento | Data do documento onde está o item tornado sem efeito | Sem Padrão
-(3) | numero_dodf | Número do DODF | Após 'n°'
-(4) | data_dodf | Data do DODF | Sem Padrão
-(5) | pagina_dodf | Página do DODF | Após 'página'
-(6) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que'
-(7) | nome | Nome do Servidor |	Letras maiúsculas
-(8) | lotacao | Lotação |	Sem Padrão
-(9) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
-(10) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
-(11) | tipo_edicao | Tipo de edição |	Sem Padrão
+ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
+------- | ------- | ------- | ------- | -------
+(1) | tipo_documento | Tipo de documento | Sem Padrão | Sim
+(2) | data_documento | Data do documento onde está o item tornado sem efeito | Sem Padrão | Sim
+(3) | numero_dodf | Número do DODF | Após 'n°' | Não
+(4) | data_dodf | Data do DODF | Sem Padrão | Sim
+(5) | pagina_dodf | Página do DODF | Após 'página' | Não
+(6) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que' | Sim
+(7) | nome | Nome do Servidor |	Letras maiúsculas | Não
+(8) | lotacao | Lotação |	Sem Padrão | Sim
+(9) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ' | Sim
+(10) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE' | Sim
+(11) | tipo_edicao | Tipo de edição |	Sem Padrão | Não
 
 Os atos de retificação possuem os seguintes padrões, conforme o documento de requisitos do TCDF:
 
 ### Padrão 1
 
-No **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no DODF n° **[NUMERO_DODF]**, de **[DATA_DODF]**, página **[PAGINA_DODF]**, o ato que **[TIPO_DE_ATO]** **[NOME_SERVIDOR]**, do(a) **[LOTACAO]**, onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**.
+No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
 
 ### Padrão 2
 
-No **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado na Edição Extra n° **[NUMERO_DODF]**, de **[DATA_DODF]**, página **[PAGINA_DODF]**, o ato que **[TIPO_DE_ATO]** **[NOME_SERVIDOR]**, do(a) **[LOTACAO]**, onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**.
+No **[tipo_documento](1)** de **[data_documento](2)**, publicado na Edição Extra n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
 
 ### Padrão 3
 
-No **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no Suplemento ao DODF n° **[NUMERO_DODF]**, de **[DATA_DODF]**, página **[PAGINA_DODF]**, o ato que **[TIPO_DE_ATO]** **[NOME_SERVIDOR]**, do(a) **[LOTACAO]**, onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**.
+No **[tipo_documento](1)** de **[data_documento](2)**, publicado no Suplemento ao DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
 
 ### Padrão 4
 
-No **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no DODF n° **[NUMERO_DODF]**, de **[DATA_DODF]**, página **[PAGINA_DODF]**, o ato que **[TIPO_DE_ATO]** **[NOME_SERVIDOR]**, do(a) **[LOTACAO]**, onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**; onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**.
+No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**; onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
 
 ### Exemplos de atos de retificação de cargo comissionado.
 
@@ -58,7 +62,9 @@ Casos não contemplados no documento de requisitos do TCDF:
 
 ## Retificação - Cargo efetivo
 
-RETIFICAR o **[TIPO_DO_DOCUMENTO]** de **[DATA_DOCUMENTO_ITEM_SEM_EFEITO]**, publicado no DODF nº **[NUMERO_DODF]**, de **[DATA_DODF]**, referente **[TIPO_DE_ATO]** ao(à) servidor(a): **[NOME_SERVIDOR]**, matrícula **[MATRÍCULA]**, **[CARGO_EFETIVO]**, Classe **[CLASSE]**, Padrão **[PADRAO]**, do **[LOTACAO]**, matrícula SIAPE no **[MATRICULA_SIAPE]**, para constar onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
+No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**; onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+
+RETIFICAR o **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF nº **[numero_dodf](3)**, de **[data_dodf](4)**, referente **[tipo_ato](6)** ao(à) servidor(a): **[nome](7)**, matrícula **[matricula](9)**, **[cargo_efetivo](10)**, Classe **[classe](11)**, Padrão **[padrao](12)**, do **[lotacao](13)**, matrícula SIAPE no **[matricula_siape]**, para constar onde se lê: **[informacao_errada]**, leia-se **[informacao_corrigida]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
 
 ### Tabela de entidades e padrões
 
@@ -77,11 +83,12 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (9) | matricula | Matrícula do Servidor |	Após 'matrícula n°'
 (10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas
 (11) | classe | Nome do Servidor |	Após cargo
-(12) | padrao | Padrão do Servidor |	Após Classe
-(13) | lotacao | Lotação |	Sem Padrão
-(14) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
-(15) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
-(16) | tipo_edicao | Tipo de edição |	Sem Padrão
+(12) | matricula_siape | Nome do Servidor |	Após cargo
+(13) | padrao | Padrão do Servidor |	Após Classe
+(14) | lotacao | Lotação |	Sem Padrão
+(15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
+(16) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
+(17) | tipo_edicao | Tipo de edição |	Sem Padrão
 
 ### Exemplos de atos de retificação de cargo efetivo
 
