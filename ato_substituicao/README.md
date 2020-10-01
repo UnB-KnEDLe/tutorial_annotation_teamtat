@@ -1,10 +1,10 @@
 # Ato de Substituição de Funções
 
-Primeiro é necessário verificar se existem atos de substituiçaõ no DODF, bastando pressionar CTRL+F e pesquisar pelo termo "para substituir". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir.
+Primeiro é necessário verificar se existem atos de substituiço no DODF, bastando pressionar CTRL+F e pesquisar pelos termos "para substituir" ou "em substituição". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir.
 
 ### Padrão
 
-DESIGNAR o **[NOME_SERVIDOR_SUBSTITUTO]**, matrícula nº **[MATRICULA_SERVIDOR_SUBSTITUTO]**, para substituir **[NOME_SERVIDOR_SUBSTITUIDO]**, matrícula nº **[MATRICULA_SERVIDOR_SUBSTITUIDO]**, **[CARGO_SERVIDOR_SUBSTITUTO]**, **[SIMBOLO_CARGO_SUBSTITUTO]**, de **[DATA_DODF]**, referente **[TIPO_DE_ATO]** ao(à) servidor(a): **[NOME_SERVIDOR]**,  , Classe **[CLASSE]**, Padrão **[PADRAO]**, do **[LOTACAO]**, matrícula SIAPE no **[MATRICULA_SIAPE]**, para constar onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
+DESIGNAR o **[nome_substituto]**, matrícula nº **[matricula_substituto ]**, para substituir **[nome_substituido]**, matrícula nº **[matricula_substituido]**, **[cargo_substituto]**, **[simbolo_substituto]**, referente **[TIPO_DE_ATO]** ao(à) servidor(a): **[NOME_SERVIDOR]**,  , Classe **[CLASSE]**, Padrão **[PADRAO]**, do **[LOTACAO]**, matrícula SIAPE no **[MATRICULA_SIAPE]**, para constar onde se lê: **[INFORMACAO_ERRADA]**, leia-se **[INFORMACAO_CORRETA]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
 
 ### Tabela de entidades e padrões
 
@@ -31,14 +31,19 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 
 > Art. 1º Designar **ANA PAULA VEIGA TRIERS(1)**, matrícula **1402016-5(2)**, como **executora substituta do Convênio nº 008/2019 - NCC/CODAG/FHB(5)**, em substituição a **Ysis Martins Aquino(3)**, matrícula: **1681885-7($)**, objeto do processo nº 00063-00002158/2019-34. Art. 2º Designar ANA PAULA VEIGA TRIERS, matrícula 1402016-5, como executora principal do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Ysis Martins Aquino, matrícula: 1681885-7, e Ana Louise Ferreira de Araújo, matrícula 1694463-1, como executora substituta do Convênio nº 001/2019 NCC/CODAG/FHB, em substituição a Madellon Melo de Assis, matrícula: 1681964-0, objeto do processo nº 00063-00000127/2019-49. Art. 3º Esta Instrução entra em vigor na data de sua publicação. BARBARA DE JESUS SIMÕES
 
-> DESIGNAR LUCILENE RODRIGUES DE OLIVEIRA DO NASCIMENTO, matrícula nº 1.690.884-8, Assessor Técnico, do Gabinete, Símbolo DFA-08, para substituir, sem acumular vencimentos e sem prejuízos de suas atribuições, a servidora JAMEL REIS AL-HAKIM SALGADO, matrícula nº 1.690.175-4, Chefe, do Núcleo de Atendimento, Protocolo e Arquivo, Símbolo DFG-12, da Administração Regional de Planaltina, da Secretaria de Estado de Governo do Distrito Federal, no período de 03 de fevereiro de 2020 a 12 de fevereiro de 2020, por motivo de férias regulamentares da titular. GILSON AMORIM SOBRINHO
+> Art. 1º Designar **EVANDRO LUIZ DE SOUZA OLIVEIRA(1)**, matrícula nº **1.402.084-X(2)**, para substituir **EVANDRO MARTINS RIBEIRO(3)**, matrícula nº **169066-16(4)**, titular do Cargo de Natureza Especial, Símbolo **CNE-07(8)**, de **Pregoeiro(7)** da **Fundação Hemocentro de Brasília(10)**, nos seus **afastamentos e impedimentos legais(14)** e sem acumular vencimentos;
+> Art. 2º Designar **EVANDRO LUIZ DE SOUZA OLIVEIRA(1)**, matrícula nº **1.402.084-X(2)**, para substituir **SALOMÃO SANCHES LEONEL BATISTA(3)**, matrícula nº **1.690.356-0(4)**, titular do Cargo de Natureza Especial, Símbolo **CNE-06(8)**, de **Chefe(7)** do **Centro de Compras(9)** da **Fundação Hemocentro de Brasília(10)**, nos seus **afastamentos e impedimentos legais(14)** e sem acumular vencimentos.
+> Esta Instrução **entra em vigor na data de sua publicação(11)**.
 
+> DESIGNAR **LUCIMAR GOMES DA SILVA(1)**, matrícula  nº **83.588-9(2)**, ocupante do cargo de **Assistente(5)** da Gerência de Gestão de Pessoas, do Serviço de Limpeza Urbana do Distrito Federal, para substituir a **Gerente de Gestão de Pessoas(7)**, do **Serviço de Limpeza Urbana do Distrito Federal(10)**, no período de **31/05/2019(11)** a **09/06/2019(12)**, por motivo de **férias regulamentares(14)**.
+
+> DESIGNAR **ANTONIA SHARLA PENHA CARREIRO(1)**, matrícula  nº **273.641-1(2)**, **Gerente(5)**, Símbolo **DFG-14(6)**, para substituir **JOSÉ GENIVALDO SOUSA DE SILVA(3)**, matrícula nº **171.583-6(4)**, **Coordenador(7)**, Símbolo **CNE-07(8)**, da **Coordenação de Logística da Subsecretaria de Administração Geral(9)**, da **Secretaria de Estado de Obras e Infraestrutura(10)**, no período de **03 de junho de 2019(11)** a **22 de junho de 2019(12)**, por motivo de **férias do titular(14)**.
 
 ### Sugestão de como realizar a anotação de um ato de substituição de funções:
 
 1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato.
 
-2. **Anote todos os nomes dos servidores.** São todas as palavras em caixa alta que aparecem logo após a palavra “NOMEAR”, ficar atento porque às vezes o cargo efetivo aparece aparece antes do nome, mas ela estará em caixa baixa. Anote apenas as palavras em caixa alta.
+2. **Anote todos os nomes dos servidores.** São todas as palavras em caixa alta que aparecem logo após a palavra “Designar” ou "DESIGNAR", ficar atento porque às vezes o cargo efetivo aparece aparece antes do nome, mas ela estará em caixa baixa. Anote apenas as palavras em caixa alta.
 
 3. **Anote os cargos efetivos.** Eles aparecerão perto do nome, ou antes ou depois.
 
