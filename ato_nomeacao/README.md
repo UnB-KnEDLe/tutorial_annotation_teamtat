@@ -146,3 +146,5 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 
 
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho.
+
+## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/CAh3eKpaeio">https://youtu.be/CAh3eKpaeio</a>
