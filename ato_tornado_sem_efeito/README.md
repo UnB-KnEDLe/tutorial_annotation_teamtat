@@ -1,7 +1,5 @@
 # Ato Tornado sem Efeito
 
-## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
-
 O ato de tornar sem efeito consiste na revogação, ou anulamento, de um ato administrativo.
 
 _Refs:_
@@ -147,3 +145,5 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 * Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
 
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho
+
+## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
