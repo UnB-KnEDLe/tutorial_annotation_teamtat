@@ -16,7 +16,7 @@ Em geral, os atos de abono de permanência seguem os seguintes padrões.
 
 ID | Rótulo | Entidade (descrição)  | Padrão  
 ------- | ------- | ------- | -------
-(1) | nome_substituto | Nome do Servidor Substituto | Letras maiúsculas
+(1) | nome | Nome do Servidor | Letras maiúsculas
 (2) | matricula | Matrícula | Após 'matrícula n°'
 (3) | cargo_efetivo | Cargo Efetivo | Sem Padrão
 (4) | classe | Classe | Após cargo
