@@ -10,6 +10,8 @@ _Refs:_
 1. <a href="https://jus.com.br/artigos/67519/a-irregularidade-na-cessao-de-servidor-publico-por-prazo-indeterminado">https://jus.com.br/artigos/67519/a-irregularidade-na-cessao-de-servidor-publico-por-prazo-indeterminado</a>
 2. <a href="https://revista1.tce.mg.gov.br/Content/Upload/Materia/2521.pdf">https://revista1.tce.mg.gov.br/Content/Upload/Materia/2521.pdf</a>
 
+### Link tutorial em vídeo
+- <a href="https://youtu.be/rekuJTcNa-0" target="_blank">https://youtu.be/rekuJTcNa-0</a>
 
 ### Tabela de entidades e padrões
 Em geral, os atos de abono de permanência seguem os seguintes padrões.
@@ -30,7 +32,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (12)| matricula_SIAPE | Matricula SIAPE | Após SIAPE
 (13)| cargo_orgao_cessionario | Cargo que exercerá no órgão cessionário | Sem padrão
 (14)| simbolo | Símbolo do cargo que exercerá no órgão cessionário | Sem padrão
-(14)| hierarquia_lotacao | Hierarquia da Lotação no órgão cessionário | Sem padrão
+(15)| hierarquia_lotacao | Hierarquia da Lotação no órgão cessionário | Sem padrão
 
 #### Exemplos de atos de cessão:
 Seguem exemplos de atos de cessão. O texto do ato em si estará sublinhado e seus respectivos atributos enumerados conforme índice da tabela acima. Note que nem todos os exemplos contemplam todos os atributos. **A regra aqui é simples: marque todos os atributos, obrigatórios ou não, que estiverem no ato.**

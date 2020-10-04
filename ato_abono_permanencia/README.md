@@ -10,6 +10,8 @@ _Refs:_
 1. <a href="https://pt.wikipedia.org/wiki/Abono_de_perman%C3%AAncia">https://pt.wikipedia.org/wiki/Abono_de_perman%C3%AAncia</a>
 2. <a href="https://jus.com.br/artigos/82775/abono-de-permanencia-o-que-mudou-com-a-reforma-da-previdencia">https://jus.com.br/artigos/82775/abono-de-permanencia-o-que-mudou-com-a-reforma-da-previdencia</a>
 
+### Link tutorial em vídeo
+- <a href="https://youtu.be/zY-yqAR_VO4" target="_blank">https://youtu.be/zY-yqAR_VO4</a>
 
 ### Tabela de entidades e padrões
 Em geral, os atos de abono de permanência seguem os seguintes padrões.
