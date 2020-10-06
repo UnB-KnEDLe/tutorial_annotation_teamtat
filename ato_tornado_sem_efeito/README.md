@@ -7,6 +7,9 @@ _Refs:_
 
 Para fazer a anotação, primeiro é necessário verificar se existem atos tornados sem efeito no DODF, para isso basta pressionar CTRL+F e pesquisar “TORNAR SEM EFEITO”. Depois avalie um por um para ver se eles se referem a atos de nomeação, exoneração ou aposentadoria. Existirão outros tipos de atos tornados sem efeito, porém eles não precisam ser anotados.
 
+## Link para o tutorial em vídeo
+- <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
+
 ## Atos tornados sem efeito referentes a nomeação ou exoneração
 
 Os atos de nomeação ou exoneração tornados sem efeito costumam seguir o mesmo padrão, tornando-os fáceis de serem identificados. Eles começam com 'TORNAR SEM EFEITO' e vão ter as palavras 'o ato que nomeou' ou 'o ato que exonerou' antes do Nome do Servidor.
@@ -145,5 +148,3 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 * Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
 
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho
-
-## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
