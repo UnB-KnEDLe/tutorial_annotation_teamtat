@@ -96,7 +96,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (15)| processo_SEI | Processo GDF/SEI | Sem padrão, geralmente no final e após 'Processo'
 
 
-### Exemplos de atos tornados sem efeito referentes aos demais tipos de atos.
+### Exemplos de atos tornados sem efeito referentes a aposentadoria.
 
 > TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***42*** **(2)**, de ***14/02/2012*** **(3)**, publicada no DODF n° ***36*** **(4)**, de ***17/02/2012*** **(5)**, o ato que concedeu aposentadoria a ***GERALDO EUSTÁQUIO COUTO*** **(7)**, matrícula n° ***114.514-2*** **(8)**, em atendimento a Diligência Interna -CGDF n° 6/2016. Processo/SES: ***276.000.021/2012*** **(14)**.
 
@@ -123,7 +123,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 > TORNAR SEM EFEITO a ***Ordem de Serviço*** **(1)** n° ***36*** **(2)**, de ***05/05/2011*** **(3)**, publicado no DODF n° ***87*** **(4)**, de ***09/05/2011*** **(5)**, que concedeu aposentadoria a ***HELIANA OLIVEIRA SOUZA*** **(7)**, matrícula ***102.824-3*** **(8)**, ***Especialista em Assistência Social*** **(9)**, Classe ***Especial*** **(10)**, Padrão ***V*** **(11)**, do Quadro de Pessoal do ***Distrito Federal*** **(12)**. Processo n° ***0400.001.442/2010*** **(14)**.
 
 
-### Sugestão de como ralizar a anotação de um ato tornado sem efeito referente aos demais tipos de atos:
+### Sugestão de como ralizar a anotação de um ato tornado sem efeito referente a aposentadoria:
 
 1. **Identifique o ato que será anotado.** Por possuir várias entidades a serem anotadas, aconselho anotar um ato de nomeação de cargo efetivo de cada vez.  
 
