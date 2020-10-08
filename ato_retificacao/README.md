@@ -83,7 +83,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (9) | matricula | Matrícula do Servidor |	Após 'matrícula n°'
 (10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas
 (11) | classe | Nome do Servidor |	Após cargo
-(12) | matricula_siape | Nome do Servidor |	Após cargo
+(12) | matricula_SIAPE | Nome do Servidor |	Após cargo
 (13) | padrao | Padrão do Servidor |	Após Classe
 (14) | lotacao | Lotação |	Sem Padrão
 (15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
