@@ -25,7 +25,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 (10) | orgao | Órgão |	Sem Padrão | Sim
 (11) | data_inicial | Data Inicial da Vigência |	Após 'no período de' | Não
 (12) | data_final | Data Final de Vigência |	Após Data Inicial da Vigência | Não
-(13) | matricula_siape | Matrícula SIAPE |	Após 'SIAPE' (apenas para Pol. Civil) | Não
+(13) | matricula_SIAPE | Matrícula SIAPE |	Após 'SIAPE' (apenas para Pol. Civil) | Não
 (14) | motivo | Motivo da substituição |	'em virtude ou a pedido'  | Não
 
 ### Exemplos de atos de substituição de função
