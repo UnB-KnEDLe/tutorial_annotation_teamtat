@@ -2,7 +2,7 @@
 
 Primeiro é necessário verificar se existem atos de substituiço no DODF, bastando pressionar CTRL+F e pesquisar pelos termos "para substituir" ou "em substituição". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir.
 
-## Vídeo (tutorial)
+## Link para vídeo no YouTube
 
 Em breve.
 
