@@ -30,19 +30,19 @@ Os atos de retificação possuem os seguintes padrões, conforme o documento de 
 
 #### Padrão 1
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
 #### Padrão 2
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado na Edição Extra n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado na Edição Extra n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
 #### Padrão 3
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado no Suplemento ao DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no Suplemento ao DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
 #### Padrão 4
 
-No **[tipo_documento](1)** de **[data_documento]**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**; onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**; onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
 ### Exemplos de atos de retificação de cargo comissionado.
 
