@@ -4,7 +4,7 @@ Primeiro é necessário verificar se existem atos de substituiço no DODF, basta
 
 ### Padrão
 
-DESIGNAR/Designar o **[nome_substituto](1)**, matrícula nº **[matricula_substituto](2)**, **[cargo_substituto](5)**, **[simbolo_substituto](6)**, para substituir **[nome_substituido](3)**, matrícula nº **[matricula_substituido](4)**, **[cargo_objeto_substituicao](7)**, Símbolo **[simbolo_objeto_substituicao](8)**, do **[hierarquia_lotacao](9)**, cargo **[orgao](10)**, no período de **[data_inicial](11)** até **[data_final](12)**, por motivo de **[motivo](14)**.
+DESIGNAR/Designar o **[nome_substituto] (1)**, matrícula nº **[matricula_substituto] (2)**, **[cargo_substituto] (5)**, **[simbolo_substituto] (6)**, para substituir **[nome_substituido] (3)**, matrícula nº **[matricula_substituido] (4)**, **[cargo_objeto_substituicao] (7)**, Símbolo **[simbolo_objeto_substituicao] (8)**, do **[hierarquia_lotacao] (9)**, cargo **[orgao] (10)**, no período de **[data_inicial] (11)** até **[data_final] (12)**, por motivo de **[motivo] (14)**.
 
 
 ### Tabela de entidades e padrões
@@ -59,15 +59,20 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 
 8. **Anote o motivo:** Costuma aparecer como a última entidade do ato;
 
-8. **Anote os atos de substituição na íntegra:** Anote todas as palavras desde "Designar” ou "DESIGNAR" até o ponto final mais próximo.
+9. **Anote os atos de substituição na íntegra:** Anote todas as palavras desde "Designar” ou "DESIGNAR" até o ponto final mais próximo.
+
+
+**IMPORTANTE:** Após anotar todos os atos de substituição em um documento, ative a opção "Curatable" no canto direito superior do documento.
 
 
 ### Observações Gerais sobre os atos substituição de funções:
 
-* O padrão dos atos de substituição costumam variar bastante, podendo um bloco de texto relacionado ao ato encontrar várias substituições, que estão relacionados a um servidor que substituirá pelo menos uma função;
-* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar.  
-* Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Loatação.  
-* Tenha muito cuidado para não apagar todas as anotações de um documento, mesmo tendo função de anotador.
-* Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um backup caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
+* O padrão dos atos de substituição costumam variar bastante, podendo um bloco de texto relacionado ao ato encontrar várias substituições, que estão relacionados a um servidor que substituirá pelo menos uma função. Nesse caso, simplifique. Anote uma entidade no bloco de texto que pode representar o ato;
+* As entidades de data inicial e final podem variar, apresentando apenas a vigência, por exemplo: entre 03 e 10 de janeiro de 2020, ao invés de (como definido no documento de requisitos do TCDF) 03 de janeiro de 2020 à 10 de janeiro de 2020. Nesse caso, coloque a anotação de data inicial como 03 e a data final como 10 de janeiro de 2020;
+* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar;
+* Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Lotação;
+* Tenha muito cuidado para não apagar todas as anotações de um documento, mesmo tendo função de anotador;
+* Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um backup caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero;
+* 
 
 
