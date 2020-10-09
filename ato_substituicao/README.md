@@ -2,7 +2,11 @@
 
 Primeiro é necessário verificar se existem atos de substituiço no DODF, bastando pressionar CTRL+F e pesquisar pelos termos "para substituir" ou "em substituição". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir.
 
-### Padrão
+## Vídeo (tutorial)
+
+Em breve.
+
+## Padrão do ato
 
 DESIGNAR/Designar o **[nome_substituto] (1)**, matrícula nº **[matricula_substituto] (2)**, **[cargo_substituto] (5)**, **[simbolo_substituto] (6)**, para substituir **[nome_substituido] (3)**, matrícula nº **[matricula_substituido] (4)**, **[cargo_objeto_substituicao] (7)**, Símbolo **[simbolo_objeto_substituicao] (8)**, do **[hierarquia_lotacao] (9)**, cargo **[orgao] (10)**, no período de **[data_inicial] (11)** até **[data_final] (12)**, por motivo de **[motivo] (14)**.
 
@@ -40,7 +44,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 
 > DESIGNAR **ANTONIA SHARLA PENHA CARREIRO(1)**, matrícula  nº **273.641-1(2)**, **Gerente(5)**, Símbolo **DFG-14(6)**, para substituir **JOSÉ GENIVALDO SOUSA DE SILVA(3)**, matrícula nº **171.583-6(4)**, **Coordenador(7)**, Símbolo **CNE-07(8)**, da **Coordenação de Logística da Subsecretaria de Administração Geral(9)**, da **Secretaria de Estado de Obras e Infraestrutura(10)**, no período de **03 de junho de 2019(11)** a **22 de junho de 2019(12)**, por motivo de **férias do titular(14)**.
 
-### Sugestão de como realizar/corrigir a anotação de um ato de substituição de funções:
+## Sugestão de como realizar/corrigir a anotação de um ato de substituição de funções:
 
 
 1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato;
@@ -65,7 +69,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 **IMPORTANTE:** Após anotar todos os atos de substituição em um documento, ative a opção "Curatable" no canto direito superior do documento.
 
 
-### Observações Gerais sobre os atos substituição de funções:
+## Observações Gerais sobre os atos substituição de funções:
 
 * O padrão dos atos de substituição costumam variar bastante, podendo um bloco de texto relacionado ao ato encontrar várias substituições, que estão relacionados a um servidor que substituirá pelo menos uma função. Nesse caso, simplifique. Anote uma entidade no bloco de texto que pode representar o ato;
 * As entidades de data inicial e final podem variar, apresentando apenas a vigência, por exemplo: entre 03 e 10 de janeiro de 2020, ao invés de (como definido no documento de requisitos do TCDF) 03 de janeiro de 2020 à 10 de janeiro de 2020. Nesse caso, coloque a anotação de data inicial como 03 e a data final como 10 de janeiro de 2020;
@@ -73,6 +77,3 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 * Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Lotação;
 * Tenha muito cuidado para não apagar todas as anotações de um documento, mesmo tendo função de anotador;
 * Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um backup caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero;
-* 
-
-
