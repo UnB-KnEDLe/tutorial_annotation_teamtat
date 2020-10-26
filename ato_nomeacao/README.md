@@ -27,8 +27,8 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (4) | matricula_SIAPE | Matrícula SIAPE | Após 'SIAPE'
 (5) | simbolo | Símbolo | Após 'Símbolo'
 (6) | cargo_comissionado | Cargo em Comissão | Após o atributo Símbolo
-(6) | hierarquia_lotacao | Hierarquia da Lotação | Após o atributo Cargo em Comissão
-(7)| orgao | Orgão | Após o atributo Hierarquia da Lotação
+(7) | hierarquia_lotacao | Hierarquia da Lotação | Após o atributo Cargo em Comissão
+(8)| orgao | Orgão | Após o atributo Hierarquia da Lotação
 
 ### Exemplos de atos de nomeação de cargo comissionado.
 
