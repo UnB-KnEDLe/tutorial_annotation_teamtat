@@ -5,6 +5,10 @@ Exoneração é o desligamento de um cargo, em Direito público, é a eliminaç�
 _Refs:_
 1. <a href="https://pt.wikipedia.org/wiki/Exonera%C3%A7%C3%A3o">https://pt.wikipedia.org/wiki/Exonera%C3%A7%C3%A3o</a>
 
+## Link para o tutorial em vídeo
+
+https://youtu.be/cJzEG1yto1U
+
 Para encontrar os atos de Exoneração no documento do DODF, basta pressionar CTRL+F e pesquisar por "EXONERAR". Após isso, é necessãrio identificar se o ato é de **Exoneração** ou de **Exoneração de Cargo Efetivo**, pois as entidades a ser anotadas são diferentes.
 
 ## Exoneração

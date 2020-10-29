@@ -8,6 +8,9 @@ _Refs:_
 
 Primeiro é necessário verificar se existem atos de nomeação no DODF, para isso basta pressionar CTRL+F e pesquisar “NOMEAR”. Desta forma, você tem noção de quantos atos de nomeação terá que anotar e onde eles estão. Depois, verifique se o ato de nomeação é de **cargo comissionado** ou de **cargo efetivo**, pois isso influencia nos tipos de entidades que terão que ser anotadas.
 
+## Link para o tutorial em vídeo
+- <a href="https://youtu.be/CAh3eKpaeio">https://youtu.be/CAh3eKpaeio</a>
+
 ## Nomeação de Cargo Comissionado
 
   Atos de nomeação de cargo comissionado, geralmente são menores e vão da palavra “NOMEAR” até o próximo ponto final. Também é comum que apareçam vários de uma vez, um seguido do outro ou com alguns atos de exoneração entre eles.
@@ -24,8 +27,8 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (4) | matricula_SIAPE | Matrícula SIAPE | Após 'SIAPE'
 (5) | simbolo | Símbolo | Após 'Símbolo'
 (6) | cargo_comissionado | Cargo em Comissão | Após o atributo Símbolo
-(6) | hierarquia_lotacao | Hierarquia da Lotação | Após o atributo Cargo em Comissão
-(7)| orgao | Orgão | Após o atributo Hierarquia da Lotação
+(7) | hierarquia_lotacao | Hierarquia da Lotação | Após o atributo Cargo em Comissão
+(8)| orgao | Orgão | Após o atributo Hierarquia da Lotação
 
 ### Exemplos de atos de nomeação de cargo comissionado.
 
@@ -146,5 +149,3 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 
 
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho.
-
-## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/CAh3eKpaeio">https://youtu.be/CAh3eKpaeio</a>

@@ -2,11 +2,11 @@
 
 Primeiro é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **cargo efetivo**, pois isso influencia nos tipos de entidades que serão anotadas.
 
-## Link para vídeo no youtube
+## Link para vídeo no YouTube
 
-http:
+Em breve.
 
-## Retificação de Cargo Comissionado e Funções de Confiança
+## Padrão do ato: retificação de Cargo Comissionado e Funções de Confiança
 
 ### Tabela de entidade e padrões
 
@@ -28,21 +28,21 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 
 Os atos de retificação possuem os seguintes padrões, conforme o documento de requisitos do TCDF:
 
-### Padrão 1
+#### Padrão 1
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
-### Padrão 2
+#### Padrão 2
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado na Edição Extra n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado na Edição Extra n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
-### Padrão 3
+#### Padrão 3
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado no Suplemento ao DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no Suplemento ao DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
-### Padrão 4
+#### Padrão 4
 
-No **[tipo_documento](1)** de **[data_documento]**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**; onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (2)**, publicado no DODF n° **[numero_dodf] (3)**, de **[data_dodf] (4)**, página **[pagina_dodf] (5)**, o ato que **[tipo_ato] (6)** **[nome] (7)**, do(a) **[lotacao] (8)**, onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**; onde se lê: **[informacao_errada] (9)**, leia-se **[informacao_corrigida] (10)**.
 
 ### Exemplos de atos de retificação de cargo comissionado.
 
@@ -62,9 +62,9 @@ Casos não contemplados no documento de requisitos do TCDF:
 
 ## Retificação - Cargo efetivo
 
-No **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF n° **[numero_dodf](3)**, de **[data_dodf](4)**, página **[pagina_dodf](5)**, o ato que **[tipo_ato](6)** **[nome](7)**, do(a) **[lotacao](8)**, onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**; onde se lê: **[informacao_errada](9)**, leia-se **[informacao_corrigida](10)**.
+No **[tipo_documento] (1)** de **[data_documento] (3)**, publicado no DODF n° **[numero_dodf] (4)**, de **[data_dodf] (5)**, página **[pagina_dodf] (6)**, o ato que **[tipo_ato] (7)** **[nome] (8)**, do(a) **[lotacao] (14)**, onde se lê: **[informacao_errada] (15)**, leia-se **[informacao_corrigida] (16)**; onde se lê: **[informacao_errada] (16)**, leia-se **[informacao_corrigida] (17)**.
 
-RETIFICAR o **[tipo_documento](1)** de **[data_documento](2)**, publicado no DODF nº **[numero_dodf](3)**, de **[data_dodf](4)**, referente **[tipo_ato](6)** ao(à) servidor(a): **[nome](7)**, matrícula **[matricula](9)**, **[cargo_efetivo](10)**, Classe **[classe](11)**, Padrão **[padrao](12)**, do **[lotacao](13)**, matrícula SIAPE no **[matricula_siape]**, para constar onde se lê: **[informacao_errada]**, leia-se **[informacao_corrigida]**, mantendo-se os demais termos do **[TIPO_DE_ATO]**.
+RETIFICAR o **[tipo_documento] (1)** de **[data_documento] (3)**, publicado no DODF nº **[numero_dodf] (4)**, de **[data_dodf] (5)**, referente **[tipo_ato] (7)** ao(à) servidor(a): **[nome] (8)**, matrícula **[matricula] (9)**, **[cargo_efetivo] (10)**, Classe **[classe] (11)**, Padrão **[padrao] (13)**, do **[lotacao] (14)**, matrícula SIAPE no **[matricula_siape] (12)**, para constar onde se lê: **[informacao_errada] (15)**, leia-se **[informacao_corrigida] (16)**, mantendo-se os demais termos do **[tipo_de_ato] (7)**.
 
 ### Tabela de entidades e padrões
 
@@ -83,7 +83,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (9) | matricula | Matrícula do Servidor |	Após 'matrícula n°'
 (10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas
 (11) | classe | Nome do Servidor |	Após cargo
-(12) | matricula_siape | Nome do Servidor |	Após cargo
+(12) | matricula_SIAPE | Nome do Servidor |	Após cargo
 (13) | padrao | Padrão do Servidor |	Após Classe
 (14) | lotacao | Lotação |	Sem Padrão
 (15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
@@ -94,26 +94,24 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 
 > RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(3)**, publicado no DODF nº **223(4)**, de **25 de novembro de 2019(5)**, pág. **08(6)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(8)**, matrícula nº **1.431.009-0(9)**, **Analista em Políticas Públicas e Gestão Governamental(10)**, desta **Secretaria de Estado de Economia do Distrito Federal(13)**, ONDE SE LÊ: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..."(14)** LEIA-SE: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."(15)**.
 
-> RETIFICAR, na **Ordem de Serviço(1)** de **06 de junho de 1989(3)**, publicada no DODF nº **108(4)** - Suplemento, de **09/06/1989(5)**, pág. **15(6)**, o ato que **averbou(7)** o tempo de serviço militar do Servidor **MANOEL SANTOS DE SOUZA(8)**, matrícula nº **30.218-X(9)**, para fazer constar: ONDE SE LÊ:**"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria..."(14)**. LEIA-SE: **"...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."(15)**.
+> RETIFICAR, na **Ordem de Serviço(1)** de **06 de junho de 1989(3)**, publicada no DODF nº **108(4)** - Suplemento, de **09/06/1989(5)**, pág. **15(6)**, o ato que **averbou(7)** o tempo de serviço militar do Servidor **MANOEL SANTOS DE SOUZA(8)**, matrícula nº **30.218-X(9)**, para fazer constar: ONDE SE LÊ:**"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria..."(15)**. LEIA-SE: **"...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."(16)**.
 
-> RETIFICAR, na **Ordem de Serviço(1)** coletiva nº **98(2)**, de **26/11/2019(3)**, publicada no DODF nº **225(4)**, de **27/11/2019(5)**, o ato que **concedeu(7)** pensão vitalícia a MARIA SOCORRO FERREIRA DE BARROS, cônjuge do ex-servidor **JERÔNIMO JANUÁRIO DE BARROS(8)**, matrícula nº **00.662-X(9)**, **Técnico em Políticas Públicas e Gestão Governamental(10)**, Classe **Única(11)**, Padrão **IX(12)**, do **Quadro de Pessoal do Distrito Federal(13)**, para corrigir a matrícula do ex-servidor, onde se lê: **"matrícula nº 00.662-X"(14)**, leia-se: **"matrícula nº 00.622X"(15)**, ficando ratificados os demais termos da concessão inicial. Processo nº 00413-00005231/2019-21.
+> RETIFICAR, na **Ordem de Serviço(1)** coletiva nº **98(2)**, de **26/11/2019(3)**, publicada no DODF nº **225(4)**, de **27/11/2019(5)**, o ato que **concedeu(7)** pensão vitalícia a MARIA SOCORRO FERREIRA DE BARROS, cônjuge do ex-servidor **JERÔNIMO JANUÁRIO DE BARROS(8)**, matrícula nº **00.662-X(9)**, **Técnico em Políticas Públicas e Gestão Governamental(10)**, Classe **Única(11)**, Padrão **IX(13)**, do **Quadro de Pessoal do Distrito Federal(14)**, para corrigir a matrícula do ex-servidor, onde se lê: **"matrícula nº 00.662-X"(15)**, leia-se: **"matrícula nº 00.622X"(16)**, ficando ratificados os demais termos da concessão inicial. Processo nº 00413-00005231/2019-21.
 
-## Sugestão de como realizar a anotação de um ato de retificação:
+## Sugestão de como realizar a anotação de um ato de retificação (ambos casos):
 
-1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato.
+1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato;
 
-2. **Anote todos os nomes dos servidores.** São todas as palavras em caixa alta que aparecem logo após a palavra “NOMEAR”, ficar atento porque às vezes o cargo efetivo aparece aparece antes do nome, mas ela estará em caixa baixa. Anote apenas as palavras em caixa alta.
+2. **Selecione as palavras do tipo de documento(1).** São todas as palavras em caixa alta que aparecem logo após a palavra “RETIFICAR/RETIFICAÇÃO na”;
 
-3. **Anote os cargos efetivos.** Eles aparecerão perto do nome, ou antes ou depois.
+3. **Anote as informaçes do DODF original da publicação:** anote o **numero_documento**, **data_documento**, **numero_dodf**, **data_dodf** e **pagina_dodf**;
 
-4. **Anote as matrículas.** Sempre aparecem logo depois da palavra “matrícula”.
+4. **Anote o nome do servidor:** aparece após as informações do DODF de origem;
 
-5. **Anote os símbolos.** Sempre aparecem logo depois da palavra “símbolo”.
+5. **Anote as informações do servidor:** onde o servidor trabalha, onde está lotado e alguns dados, como **nome**, **matricula**, **cargo_efetivo**, **classe**, **padrao**, **lotacao**;
 
-6. **Anote os cargos em comissão.** Sempre aparecem depois dos símbolos.
+6. **Anote as informações errada e corrigida, respectivamente**.
 
-7. **Anote os orgãos** Sempre são as últimas palavras, ficam entre a última vírgula e o ponto final.
+7. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde "RETIFICAÇÃO/RETIFICAR” até o ponto final mais próximo após a **informacao_corrigida** ou Processo SEI.
 
-8. **Anote as hierarquias das lotações.** São todas as palavras que ficam entre o cargo em comissão e o órgão. O tamanho deste atributo varia bastante.  
 
-9. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde ‘NOMEAR” até o ponto final mais próximo.

@@ -7,6 +7,9 @@ _Refs:_
 
 Para fazer a anotação, primeiro é necessário verificar se existem atos tornados sem efeito no DODF, para isso basta pressionar CTRL+F e pesquisar “TORNAR SEM EFEITO”. Depois avalie um por um para ver se eles se referem a atos de nomeação, exoneração ou aposentadoria. Existirão outros tipos de atos tornados sem efeito, porém eles não precisam ser anotados.
 
+## Link para o tutorial em vídeo
+- <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>
+
 ## Atos tornados sem efeito referentes a nomeação ou exoneração
 
 Os atos de nomeação ou exoneração tornados sem efeito costumam seguir o mesmo padrão, tornando-os fáceis de serem identificados. Eles começam com 'TORNAR SEM EFEITO' e vão ter as palavras 'o ato que nomeou' ou 'o ato que exonerou' antes do Nome do Servidor.
@@ -93,7 +96,7 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 (15)| processo_SEI | Processo GDF/SEI | Sem padrão, geralmente no final e após 'Processo'
 
 
-### Exemplos de atos tornados sem efeito referentes aos demais tipos de atos.
+### Exemplos de atos tornados sem efeito referentes a aposentadoria.
 
 > TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***42*** **(2)**, de ***14/02/2012*** **(3)**, publicada no DODF n° ***36*** **(4)**, de ***17/02/2012*** **(5)**, o ato que concedeu aposentadoria a ***GERALDO EUSTÁQUIO COUTO*** **(7)**, matrícula n° ***114.514-2*** **(8)**, em atendimento a Diligência Interna -CGDF n° 6/2016. Processo/SES: ***276.000.021/2012*** **(14)**.
 
@@ -104,23 +107,23 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 > TORNAR SEM EFEITO, na ***Ordem de serviço*** **(1)** n° ***96*** **(2)**, de ***25/05/2016*** **(3)**, publicado no DODF n° ***109*** **(4)** de ***09/06/2016*** **(5)**, o ato de aposentadoria de ***SONIA APARECIDA CALDAS PETRUCCELE*** **(7)**, matrícula nº ***130.945-5*** **(8)**. Lotação: ***HRC*** **(13)**. Processo n° ***060.007.490/2015*** **(14)**
 
 
-> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***ELIÃ AMBRÓSIO CÂNDIDO DA SILVA*** **(7)**, matrícula ***39.969-8*** **(8)**, no Cargo de ***Professor de Educação Básica*** **(9)**, Padrâo ***24*** **(11)**, Etapa IV, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00087144/2019-92*** **(14)**.
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***ELIÃ AMBRÓSIO CÂNDIDO DA SILVA*** **(7)**, matrícula ***39.969-8*** **(8)**, no Cargo de ***Professor de Educação Básica*** **(9)**, Padrâo ***24*** **(11)**, Etapa IV, do ***Quadro de Pessoal do Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00087144/2019-92*** **(14)**.
 
 
-> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** de ***26 de julho de 2016*** **(3)**, publicada no Diário Oficial do Distrito Federal de ***27 de julho de 2016*** **(5)**, o ato que concedeu aposentadoria a ***EDNA MARIA DA CRUZ SAMPAIO*** **(7)**, matricula ***62.842-5*** **(8)**, no cargo de ***Professor de Educação Básica*** **(9)**, Padrão ***25*** **(11)**, Etapa IV do Quadro de Pessoal do ***Distrito Federal*** **(12)**. Processo ***464.000084/2016*** **(14)**.
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** de ***26 de julho de 2016*** **(3)**, publicada no Diário Oficial do Distrito Federal de ***27 de julho de 2016*** **(5)**, o ato que concedeu aposentadoria a ***EDNA MARIA DA CRUZ SAMPAIO*** **(7)**, matricula ***62.842-5*** **(8)**, no cargo de ***Professor de Educação Básica*** **(9)**, Padrão ***25*** **(11)**, Etapa IV do ***Quadro de Pessoal do Distrito Federal*** **(12)**. Processo ***464.000084/2016*** **(14)**.
 
 
-> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***FLORIPES ALVES MACHADO DA SILVA*** **(7)**, matrícula ***40.911-1*** **(8)**, no Cargo de ***Agente de Gestão Educacional/Serviços Gerais*** **(9)**, Nível 10, Padrão ***3*** **(11)**, Etapa V, do Quadro de Pessoal do ***Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00129252/2019-40*** **(14)**.
+> TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** n° ***344*** **(2)**, de ***27 de dezembro de 2019*** **(3)**, publicada no Diário Oficial do Distrito Federal, de ***03 de janeiro de 2020*** **(5)**, o ato que concedeu aposentadoria a ***FLORIPES ALVES MACHADO DA SILVA*** **(7)**, matrícula ***40.911-1*** **(8)**, no Cargo de ***Agente de Gestão Educacional/Serviços Gerais*** **(9)**, Nível 10, Padrão ***3*** **(11)**, Etapa V, do ***Quadro de Pessoal do Distrito Federal*** **(12)**, a contar de 03 de janeiro de 2020. Processo ***00080.00129252/2019-40*** **(14)**.
 
 
 > TORNAR SEM EFEITO na ***Ordem de Serviço*** **(1)** nº ***256*** **(2)** de ***28 de novembro de 2017*** **(3)**, publicada no DODF nº ***237*** **(4)** de ***05 de dezembro de 2017*** **(5)**, o ato que concedeu aposentadoria ***EVANDRO DIAS CABRAL*** **(7)**, matrícula nº ***114.714-5*** **(8)** na Carreira de Assistência Pública a Saúde, no Cargo de ***Técnico em Saúde - Técnico Administrativo*** **(9)**, Classe ***Especial*** **(10)**, Padrão ***V*** **(11)**, nos termos do artigo 6º da Emenda Constitucional nº 41/2003, combinado com o artigo 2º da Emenda Constitucional nº 47/2005, combinados com o artigo 43, da Lei Complementar nº 769, de
-30/06/2008, do Quadro de Pessoal da ***Secretaria de Estado de Saúde do Distrito Federal*** **(12)**. Lotação: ***SRSOE*** **(13)**. Processo: ***060.00047003/2017-40*** **(14)**
+30/06/2008, do ***Quadro de Pessoal da Secretaria de Estado de Saúde do Distrito Federal*** **(12)**. Lotação: ***SRSOE*** **(13)**. Processo: ***060.00047003/2017-40*** **(14)**
 
 
-> TORNAR SEM EFEITO a ***Ordem de Serviço*** **(1)** n° ***36*** **(2)**, de ***05/05/2011*** **(3)**, publicado no DODF n° ***87*** **(4)**, de ***09/05/2011*** **(5)**, que concedeu aposentadoria a ***HELIANA OLIVEIRA SOUZA*** **(7)**, matrícula ***102.824-3*** **(8)**, ***Especialista em Assistência Social*** **(9)**, Classe ***Especial*** **(10)**, Padrão ***V*** **(11)**, do Quadro de Pessoal do ***Distrito Federal*** **(12)**. Processo n° ***0400.001.442/2010*** **(14)**.
+> TORNAR SEM EFEITO a ***Ordem de Serviço*** **(1)** n° ***36*** **(2)**, de ***05/05/2011*** **(3)**, publicado no DODF n° ***87*** **(4)**, de ***09/05/2011*** **(5)**, que concedeu aposentadoria a ***HELIANA OLIVEIRA SOUZA*** **(7)**, matrícula ***102.824-3*** **(8)**, ***Especialista em Assistência Social*** **(9)**, Classe ***Especial*** **(10)**, Padrão ***V*** **(11)**, do ***Quadro de Pessoal do Distrito Federal*** **(12)**. Processo n° ***0400.001.442/2010*** **(14)**.
 
 
-### Sugestão de como ralizar a anotação de um ato tornado sem efeito referente aos demais tipos de atos:
+### Sugestão de como ralizar a anotação de um ato tornado sem efeito referente a aposentadoria:
 
 1. **Identifique o ato que será anotado.** Por possuir várias entidades a serem anotadas, aconselho anotar um ato de nomeação de cargo efetivo de cada vez.  
 
@@ -145,5 +148,3 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 * Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um back up caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero.
 
 Pronto! Agora é só por uma boa playlist e seguir com o bom trabalho
-
-## Link para o vídeo que demonstra como anotar este tipo de ato: <a href="https://youtu.be/ZfjiFIO-HGg">https://youtu.be/ZfjiFIO-HGg</a>

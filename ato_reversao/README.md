@@ -8,6 +8,10 @@ _Refs:_
 1. <a href="https://jus.com.br/artigos/35306/comparacoes-e-conceitos">https://jus.com.br/artigos/35306/comparacoes-e-conceitos</a>
 2. <a href="https://jus.com.br/artigos/55352/a-reversao-do-servidor-que-se-aposentou-voluntariamente">https://jus.com.br/artigos/55352/a-reversao-do-servidor-que-se-aposentou-voluntariamente</a>
 
+## Link para tutorial em vídeo
+
+https://youtu.be/Ug8t6wExqXU
+
 Para encontrar os atos de Reversão no documento do DODF, basta pressionar CTRL+F e pesquisar por "REVERTER".
 
 
