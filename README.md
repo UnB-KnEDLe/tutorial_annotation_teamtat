@@ -20,6 +20,8 @@ Adicionar anotação de entidade | SPACE
 Remover anotação de entidade | r
 Adicionar relação | v
 
+Outra melhoria que vale a pena mencionar é a possibilidade de excluir anotações usando o botão direito do mouse.
+
 A anotação dos documentos do DODF será feita a nível de atos de entidades. Os atos as serem anotados estão apresentados a seguir e as respectivas entidades estão nos tutoriais individuais dos atos.
 
 *   [Exoneração](ato_exoneracao/README.md)
