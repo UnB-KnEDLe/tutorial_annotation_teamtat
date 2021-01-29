@@ -2,8 +2,23 @@
 
 Nesse repositório está o tutorial de como anotar os documentos do Diário Oficial do Distrito Federal (DODF) de acordo com os requisitos do Tribunal de Contas do Distrito Federal (TCDF).
 
-A ferramenta usada para realizar as anotações será o [TeamTat](https://www.teamtat.org/). Essa é uma ferramenta online para anotação que permite que várias pessoas anotem e revisem um mesmo documento facilitando a geração de uma base de dados padrão ouro.
+A ferramenta usada para realizar as anotações será o [NidoTat](http://nido.cic.unb.br/), um fork do [TeamTat](https://www.teamtat.org/). Essa é uma ferramenta online para anotação que permite que várias pessoas anotem e revisem um mesmo documento facilitando a geração de uma base de dados padrão ouro.
 
+Algumas funcionalidades foram incluídas no NidoTat para melhor atender às necessidades do projeto [KnEDle](https://unb-knedle.github.io/nido.html). Dentre elas, constam alguns atalhos de teclado, cujos valores padrão são descritos na tabela abaixo:
+
+Função | Tecla
+------- | -------
+Navegação: próxima palavra | d
+Navegação: palavra anterior | a
+Navegação: próximo caractere | e
+Navegação: caractere anterior | q
+Navegação: avançar várias palavras | s
+Navegação: voltar várias palavras | w
+Seleção de texto | SHIFT + tecla de navegação
+Percorrer lista de entidades selecionadas | CTRL
+Adicionar anotação de entidade | SPACE
+Remover anotação de entidade | r
+Adicionar relação | v
 
 A anotação dos documentos do DODF será feita a nível de atos de entidades. Os atos as serem anotados estão apresentados a seguir e as respectivas entidades estão nos tutoriais individuais dos atos.
 
@@ -55,7 +70,7 @@ Então, com o mouse, selecione o texto correspondente a esse rótulo.
 
 O texto selecionado ficará grifado com a cor correspondente ao rótulo escolhido.
 
-Outra forma de anotar as entidades é através de atalhos do teclado. Selecione o parágrafo que contém a entidade e, para percorrer as palavras, aperte "D" para ir uma palavra para frente, "A" para ir uma palavra para trás, "S" para ir algumas palavras para frente e "W" para ir algumas palavras para trás. Para ir um caractere para frente ou para trás, aperte "" e "Q", respectivamente. Para selecioanr um conjunto de palavras, aperte "SHIFT" e os caracteres listados anteriormente.
+Outra forma de anotar as entidades é através de atalhos do teclado. Selecione o parágrafo que contém a entidade e, para percorrer as palavras, aperte "D" para ir uma palavra para frente, "A" para ir uma palavra para trás, "S" para ir algumas palavras para frente e "W" para ir algumas palavras para trás. Para ir um caractere para frente ou para trás, aperte "E" e "Q", respectivamente. Para selecionar um conjunto de palavras, aperte "SHIFT" e os caracteres listados anteriormente.
 
 Caso tenha feito uma anotação incorreta e queira apagá-la, selecione, através dos atalhos de teclado, a anotação e, em seguida, aperte "R".
 
