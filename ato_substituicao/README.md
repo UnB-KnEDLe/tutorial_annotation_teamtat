@@ -4,7 +4,7 @@ Primeiro é necessário verificar se existem atos de substituiço no DODF, basta
 
 ## Link para vídeo no YouTube
 
-Em breve.
+Clique [AQUI](https://www.youtube.com/watch?v=J57YgiIG2mg) para assistir um vídeo explicativo de como anotar os atos de substituição e suas entidades. O vídeo aborda tanto a fase da anotação, como a fase de revisão, em que as relações entre os atos e as entidades devem ser criadas.
 
 ## Padrão do ato
 
