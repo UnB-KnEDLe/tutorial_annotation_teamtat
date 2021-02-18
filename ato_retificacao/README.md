@@ -121,6 +121,8 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatória?
 
 7. **Anote os atos de retificação como um todo.** Anote todas as palavras desde "RETIFICAÇÃO/RETIFICAR” até o ponto final mais próximo após a **informacao_corrigida** ou Processo SEI.
 
+**IMPORTANTE:** Após anotar todos os atos de retificação em um documento, ative a opção "Curatable" no canto direito superior do documento. Em seguida, ative a opção "Done".
+
 
 ## Sugestão de como realizar a revisão de um ato de retificação (ambos casos):
 
@@ -133,5 +135,17 @@ Ao abrir um documento do DODF para análise, faça:
 3. **Crie as relações para todos os atos no documento:** crie uma relação (Relation) que ligue a label do ato de retificação com os labels das entidades. Assista o vídeo demonstrativo (link no início desse tutorial) para mais detalhes de como criar uma relação.
 
 4. **Existem atos de retificação que não foram anotados?** Você pode fazer a anotação das entidades e dos atos correspondentes normalmente. Depois, basta criar a relação para cada ato de retificação e suas entidades.
+
+**IMPORTANTE:** Após revisar todos os atos de retificação em um documento, ative a opção "Curatable" no canto direito superior do documento. Em seguida, ative a opção "Done".
+
+
+## Observações Gerais sobre os atos de retificação:
+
+* O padrão dos atos de retificação costumam variar bastante, podendo um bloco de texto relacionado ao ato possuir mais de uma informação errada que precisem ser corridas;
+* Cuidado ao anotar entidades e rotulá-las com as labels **matricula** e **matricula_SIAPE**: a segunda é utilizada para servidores integrantes da Polícia Militar, Polícia Civil e Corpo de Bombeiros Militar);
+* Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar;
+* Não anote vírgulas e três pontos, a não ser que eles estejam dentro da entidade, como acontece nas labels **informacao_errada** e **informacao_corrigida**;
+* Tenha muito cuidado para não apagar todas as anotações de um documento, mesmo tendo função de anotador;
+* Recomendo sempre que for fazer uma pausa mais prolongada, que salve um arquivo xml com as suas anotações, por precaução. Desta forma, você terá um backup caso aconteça alguma coisa e você perca todas as anotações feitas no documento, e com isso não terá que começar a anotar do zero;
 
 
