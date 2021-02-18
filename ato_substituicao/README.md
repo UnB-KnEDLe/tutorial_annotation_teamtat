@@ -1,10 +1,14 @@
 # Ato de Substituição de Funções
 
-Primeiro é necessário verificar se existem atos de substituiço no DODF, bastando pressionar CTRL+F e pesquisar pelos termos "para substituir" ou "em substituição". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir.
+Lembre-se que você deve **apenas** anotar (e revisar) os atos de substituição da **Seção II** dos documentos do Diário Oficial do Distrito Federal (DODF). Existem atos de substituição em várias seções do DODF, mas apenas a **Seção II** contém esses atos relacionados a pessoas (servidores). Nas demais seções do DODF, podem existir atos de substituição relacionados com contratos, licitações e empresas, que **não** devem ser anotados. Portanto, anote os atos de substituição que contenha apenas nomes de pessoas/servidores como objeto central do ato e seguindo os padrões como mostram as seções a seguir. 
 
 ## Link para vídeo no YouTube
 
 Clique [AQUI](https://www.youtube.com/watch?v=nUEbibdg-aM) para assistir um vídeo explicativo de como anotar os atos de substituição e suas entidades. O vídeo aborda tanto a fase da anotação, como a fase de revisão, em que as relações entre os atos e as entidades devem ser criadas.
+
+## Como encontrar um ato de substituição?
+
+Primeiro é necessário verificar se existem atos de substituição no DODF, bastando pressionar CTRL+F e pesquisar pelos termos "para substituir" ou "em substituição". Após encontrar um ou mais blocos relacionados a substituição, deve-se fazer a correspondência de cada bloco de texto em relação a um dos padrões definidos a seguir. Anote as entidades conforme os labels descritos na tabela a seguir.
 
 ## Padrão do ato
 
@@ -15,7 +19,7 @@ DESIGNAR/Designar o **[nome_substituto] (1)**, matrícula nº **[matricula_subst
 
 As entidades que deverão ser identificadas são:
 
-ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório? 
+ID | Label | Entidade (descrição)  | Padrão | Obrigatório? 
 ------- | ------- | ------- | ------- | -------
 (1) | nome_substituto | Nome do Servidor | n.a. | Sim
 (2) | matricula_substituto | Matrícula do Servidor Substituto | Letras maiúsculas aṕos 'DESIGNAR' | Sim
@@ -66,12 +70,27 @@ ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
 9. **Anote os atos de substituição na íntegra:** Anote todas as palavras desde "Designar” ou "DESIGNAR" até o ponto final mais próximo.
 
 
-**IMPORTANTE:** Após anotar todos os atos de substituição em um documento, ative a opção "Curatable" no canto direito superior do documento.
+**IMPORTANTE:** Após anotar todos os atos de substituição em um documento, ative a opção "Curatable" no canto direito superior do documento. Em seguida, ative a opção "Done".
+
+
+## Sugestão de como realizar a revisão de um ato de substituição:
+
+Ao abrir um documento do DODF para análise, faça:
+
+1. **Procure pelos atos de substituição** conforme a instrução no início deste tutorial;
+
+2. **Revise as entidades:** Após encontrar um ato de substituição anotado, passe o mouse sobre as entidades anotadas e verifique se estão corretamente anotadas conforme os labels aqui descritos. Em caso de inconsistências (anotações de entidades com labels incorretas), realize a correção de cada uma utilizando os recursos de interação do NidoTat (veja no vídeo demonstrativo como proceder);
+
+3. **Crie as relações para todos os atos no documento:** crie uma relação (Relation) que ligue a label do ato de substituição com os labels das entidades. Assista o vídeo demonstrativo (link no início desse tutorial) para mais detalhes de como criar uma relação.
+
+4. **Existem atos de substituição que não foram anotados?** Se essa resposta for sim, você deve fazer a anotação das entidades e dos atos correspondentes normalmente. Depois, basta criar a relação para cada ato de substituiçaõ e suas entidades constituintes.
+
+**IMPORTANTE:** Após revisar todos os atos de substituição em um documento, ative a opção "Curatable" no canto direito superior do documento. Em seguida, ative a opção "Done".
 
 
 ## Observações Gerais sobre os atos substituição de funções:
 
-* O padrão dos atos de substituição costumam variar bastante, podendo um bloco de texto relacionado ao ato encontrar várias substituições, que estão relacionados a um servidor que substituirá pelo menos uma função. Nesse caso, simplifique. Anote uma entidade no bloco de texto que pode representar o ato;
+* O padrão dos atos de substituição costumam variar bastante, podendo um bloco de texto relacionado ao ato possuir várias substituições, que estão relacionados a um servidor que substituirá pelo menos uma função. Nesse caso, simplifique. Anote uma entidade no bloco de texto que pode representar o ato;
 * As entidades de data inicial e final podem variar, apresentando apenas a vigência, por exemplo: entre 03 e 10 de janeiro de 2020, ao invés de (como definido no documento de requisitos do TCDF) 03 de janeiro de 2020 à 10 de janeiro de 2020. Nesse caso, coloque a anotação de data inicial como 03 e a data final como 10 de janeiro de 2020;
 * Nem sempre o ato terá todos os atributos, mas anote todos os que você encontrar;
 * Não anote vírgulas e pontos, a não ser que eles estejam dentro do atributo, como acontece em Hierarquia de Lotação;
