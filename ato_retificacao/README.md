@@ -1,18 +1,25 @@
 # Ato de Retificação
 
-Primeiro é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **cargo efetivo**, pois isso influencia nos tipos de entidades que serão anotadas.
+Lembre-se que você deve **apenas** anotar (e revisar) os atos de retificação da **Seção II** dos documentos do Diário Oficial do Distrito Federal (DODF). Existem atos de retificação em várias seções do DODF, mas apenas a **Seção II** contém esses atos relacionados a pessoas (servidores). Nas demais seções do DODF, podem existir atos de retificação relacionados com contratos, licitações e empresas, que **não** devem ser anotados. Portanto, anote os atos de retificação que contenha apenas nomes de pessoas/servidores como objeto central do ato e seguindo os padrões como mostram as seções a seguir. 
 
 ## Link para vídeo no YouTube
 
 Clique [AQUI](https://www.youtube.com/watch?v=J57YgiIG2mg) para assistir um vídeo explicativo de como anotar os atos de retificação e suas entidades. O vídeo aborda tanto a fase da anotação, como a fase de revisão, em que as relações entre os atos e as entidades devem ser criadas.
 
+## Como encontrar um ato de retificação?
+
+Primeiramente, é necessário verificar se existem atos de retificação no DODF, para isso basta pressionar CTRL+F e pesquisar pelo termo "LEIA-SE". Desta forma, será possível encontrar os atos de retificação em todo o documento do DODF. Depois, verifique se o ato de retificação é de **cargo comissionado** ou relativo a **cargo efetivo**, pois isso influencia nos tipos de entidades que serão anotadas. Basicamente, podemos diferenciar os ato de retificação entre si como:
+
+- Retificação de **Cargo Efetivo**: contém a matrícula do servidor que está presente no ato ou informações de classe, padrão etc.
+- Retificação de **Cargo Comissionado e Funções de Confiança**: contém informações relacionadas à lotação do cargo.
+
 ## Padrão do ato: retificação de Cargo Comissionado e Funções de Confiança
 
-### Tabela de entidade e padrões
+### Tabela de entidades e padrões
 
-As entidades que deverão ser identificadas são:
+Cada entidade do ato deverá ser anotada por um **Label** (rótulo) de acordo com a tabela abaixo:
 
-ID | Rótulo | Entidade (descrição)  | Padrão | Obrigatório?
+ID | Label | Entidade (descrição)  | Padrão | Obrigatório?
 ------- | ------- | ------- | ------- | -------
 (1) | tipo_documento | Tipo de documento | Sem Padrão | Sim
 (2) | data_documento | Data do documento onde está o item tornado sem efeito | Sem Padrão | Sim
@@ -68,31 +75,31 @@ RETIFICAR o **[tipo_documento] (1)** de **[data_documento] (3)**, publicado no D
 
 ### Tabela de entidades e padrões
 
-As entidades que deverão ser identificadas são:
+Cada entidade do ato deverá ser anotada por um **Label** (rótulo) de acordo com a tabela abaixo:
 
-ID | Rótulo | Entidade (descrição)  | Padrão  
-------- | ------- | ------- | -------
-(1) | tipo_documento | Tipo de documento | Sem Padrão
-(2) | numero_documento | Número do documento onde está o item tornado sem efeito (2) | Sem Padrão
-(3) | data_documento | Data do documento onde está o item tornado sem efeito (2) | Sem Padrão
-(4) | numero_dodf | Número do DODF | Após 'n°'
-(5) | data_dodf | Data do DODF | Sem Padrão
-(6) | pagina_dodf | Página do DODF | Após 'página'
-(7) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que'
-(8) | nome | Nome do Servidor |	Letras maiúsculas
-(9) | matricula | Matrícula do Servidor |	Após 'matrícula n°'
-(10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas
-(11) | classe | Nome do Servidor |	Após cargo
-(12) | matricula_SIAPE | Nome do Servidor |	Após cargo
-(13) | padrao | Padrão do Servidor |	Após Classe
-(14) | lotacao | Lotação |	Sem Padrão
-(15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ'
-(16) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE'
-(17) | tipo_edicao | Tipo de edição |	Sem Padrão
+ID | Label | Entidade (descrição)  | Padrão  | Obrigatória?
+------- | ------- | ------- | ------- | -------
+(1) | tipo_documento | Tipo de documento | Sem Padrão | Sim
+(2) | numero_documento | Número do documento onde está o item tornado sem efeito (2) | Sem Padrão | Não
+(3) | data_documento | Data do documento onde está o item tornado sem efeito (2) | Sem Padrão | Sim
+(4) | numero_dodf | Número do DODF | Após 'n°' | Não
+(5) | data_dodf | Data do DODF | Sem Padrão | Sim
+(6) | pagina_dodf | Página do DODF | Após 'página' | Não
+(7) | tipo_ato | Tipo de ato |	Tamanho e detalhamento variáveis, após 'ato que' | Não
+(8) | nome | Nome do Servidor |	Letras maiúsculas | Sim
+(9) | matricula | Matrícula do Servidor |	Após 'matrícula n°' | Sim
+(10) | cargo_efetivo | Cargo Efetivo do Servidor |	Letras maiúsculas | Sim
+(11) | classe | Nome do Servidor |	Após cargo | Não
+(12) | matricula_SIAPE | Nome do Servidor |	Após cargo | Não
+(13) | padrao | Padrão do Servidor |	Após Classe | Não
+(14) | lotacao | Lotação do Servidor |	Após Classe | Não
+(15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ' | Sim
+(16) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE' | Sim
+(17) | tipo_edicao | Tipo de edição |	Sem Padrão | Não
 
 ### Exemplos de atos de retificação de cargo efetivo
 
-> RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(3)**, publicado no DODF nº **223(4)**, de **25 de novembro de 2019(5)**, pág. **08(6)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(8)**, matrícula nº **1.431.009-0(9)**, **Analista em Políticas Públicas e Gestão Governamental(10)**, desta **Secretaria de Estado de Economia do Distrito Federal(13)**, ONDE SE LÊ: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..."(14)** LEIA-SE: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."(15)**.
+> RETIFICAÇÃO No **Despacho do Secretário(1)**, de **21 de novembro de 2018(3)**, publicado no DODF nº **223(4)**, de **25 de novembro de 2019(5)**, pág. **08(6)**, vinculado ao Processo: 00002-00006250/2019-15, de interesse do servidor **WILSON GOMES DE OLIVEIRA(8)**, matrícula nº **1.431.009-0(9)**, **Analista em Políticas Públicas e Gestão Governamental(10)**, desta **Secretaria de Estado de Economia do Distrito Federal(14)**, ONDE SE LÊ: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão Administrativa..."(15)** LEIA-SE: **"...para ter exercício no Cargo em Comissão, Símbolo DAS-04, de Superintendente de Gestão e Desenvolvimento de Pessoas..."(16)**.
 
 > RETIFICAR, na **Ordem de Serviço(1)** de **06 de junho de 1989(3)**, publicada no DODF nº **108(4)** - Suplemento, de **09/06/1989(5)**, pág. **15(6)**, o ato que **averbou(7)** o tempo de serviço militar do Servidor **MANOEL SANTOS DE SOUZA(8)**, matrícula nº **30.218-X(9)**, para fazer constar: ONDE SE LÊ:**"...Averba 303 dias prestados ao Ministério do Exército no período de 15.01.75 a 13.11.75, contados para fins de adicionais e aposentadoria..."(15)**. LEIA-SE: **"...Averba 304 dias líquidos prestados ao Ministério do Exército como Serviço Militar no período de 15.01.75 a 13.11.75, conforme demonstrado na Certidão de Tempo de Serviço emitida pelo Ministério da Defesa, para fins de adicionais e aposentadoria..."(16)**.
 
@@ -102,16 +109,29 @@ ID | Rótulo | Entidade (descrição)  | Padrão
 
 1. **Delimite o espaço visual de anotação:** Posicione o texto do DODF na tela do computador que contemple, no mínimo, 1 bloco de texto relacionado ao ato;
 
-2. **Selecione as palavras do tipo de documento(1).** São todas as palavras em caixa alta que aparecem logo após a palavra “RETIFICAR/RETIFICAÇÃO na”;
+2. **Selecione as palavras do tipo de documento(1).** São todas as palavras que aparecem logo após a palavra “RETIFICAR/RETIFICAÇÃO na”;
 
-3. **Anote as informaçes do DODF original da publicação:** anote o **numero_documento**, **data_documento**, **numero_dodf**, **data_dodf** e **pagina_dodf**;
+3. **Anote as informações do DODF original da publicação:** anote essas entidades que estão relacionadas com os labels **numero_documento**, **data_documento**, **numero_dodf**, **data_dodf** e **pagina_dodf**;
 
 4. **Anote o nome do servidor:** aparece após as informações do DODF de origem;
 
-5. **Anote as informações do servidor:** onde o servidor trabalha, onde está lotado e alguns dados, como **nome**, **matricula**, **cargo_efetivo**, **classe**, **padrao**, **lotacao**;
+5. **Anote as informações do servidor:** onde o servidor trabalha, onde está lotado e alguns dados, como as labels **nome**, **matricula**, **cargo_efetivo**, **classe**, **padrao**, **lotacao**;
 
 6. **Anote as informações errada e corrigida, respectivamente**.
 
-7. **Anote os atos de nomeação como um todo.** Anote todas as palavras desde "RETIFICAÇÃO/RETIFICAR” até o ponto final mais próximo após a **informacao_corrigida** ou Processo SEI.
+7. **Anote os atos de retificação como um todo.** Anote todas as palavras desde "RETIFICAÇÃO/RETIFICAR” até o ponto final mais próximo após a **informacao_corrigida** ou Processo SEI.
+
+
+## Sugestão de como realizar a revisão de um ato de retificação (ambos casos):
+
+Ao abrir um documento do DODF para análise, faça:
+
+1. **Procure pelos atos de retificação** conforme a instrução no início deste tutorial;
+
+2. **Revise as entidades:** Após encontrar um ato de retificação anotado, passe o mouse sobre as entidades anotadas e verifique se estão corretamente anotadas conforme os labels aqui descritos. Em caso de inconsistências (anotações de entidades com labels incorretas), realize a correção de cada uma utilizando os recursos de interação do NidoTat (veja no vídeo demonstrativo como proceder);
+
+3. **Crie as relações para todos os atos no documento:** crie uma relação (Relation) que ligue a label do ato de retificação com os labels das entidades. Assista o vídeo demonstrativo (link no início desse tutorial) para mais detalhes de como criar uma relação.
+
+4. **Existem atos de retificação que não foram anotados?** Você pode fazer a anotação das entidades e dos atos correspondentes normalmente. Depois, basta criar a relação para cada ato de retificação e suas entidades.
 
 
