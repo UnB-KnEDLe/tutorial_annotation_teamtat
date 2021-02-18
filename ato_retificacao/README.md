@@ -92,7 +92,7 @@ ID | Label | Entidade (descrição)  | Padrão  | Obrigatória?
 (11) | classe | Nome do Servidor |	Após cargo | Não
 (12) | matricula_SIAPE | Nome do Servidor |	Após cargo | Não
 (13) | padrao | Padrão do Servidor |	Após Classe | Não
-(14) | lotacao | Lotação do Servidor |	Após Classe | Não
+(14) | lotacao | Lotação do Servidor |	Após Padrão | Não
 (15) | informacao_errada | Informação Errada |	Após 'ONDE SE LÊ' | Sim
 (16) | informacao_corrigida | Informação Corrigida |	Após 'LEIA-SE' | Sim
 (17) | tipo_edicao | Tipo de edição |	Sem Padrão | Não
